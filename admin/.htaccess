@@ -1,0 +1,4 @@
+AuthName "Short Course Admin - Protected Area"
+AuthType Basic
+AuthUserFile C:/xampp/htdocs/restricted/shortcourse/.htpasswd
+require valid-user

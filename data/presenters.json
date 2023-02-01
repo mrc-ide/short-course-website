@@ -1,0 +1,300 @@
+﻿[
+	{
+		"identifier" : "m_baguelin",
+		"title" : "Dr",
+		"forenames" : ["Marc"],
+		"postnominals": [""],
+		"surname" : "Baguelin",
+		"positions" : ["Senior Lecturer in Infectious Disease Epidemiology"],
+		"description" : "Dr Baguelin's research aims to understand how best to use data sources to inform public health decisions. He is interested in Bayesian methods of evidence synthesis, model design for transmission dynamics, and translation of modelling outputs for policy making. He has ten years of experience working in public health designing models to support immunisation policies. In particular he has worked in modelling influenza transmission integrating, social, demographic, serological, alongside surveillance data. In 2012 the UK decided to introduce childhood influenza vaccination based on this work",
+		"photo" : "images/presenters/marc_baguelin.jpg",
+		"pubs" : "https://www.imperial.ac.uk/people/m.baguelin/publications.html"
+
+	},
+	{
+		"identifier" : "m_basanez",
+		"title" : "Professor",
+		"forenames" : ["Maria-Gloria"],
+		"postnominals": [""],
+		"surname" : "Basáñez",
+		"positions" : ["Professor of Neglected Tropical Diseases"],
+		"description" : "Prof Basáñez's research focuses on the epidemiology, control and modelling of NTDs in general, and the population biology and transmission dynamics of indirectly-transmitted parasites in particular, with emphasis on River Blindness, Chagas Disease and the Pork Tapeworm (the latter two also zoonotic NTDs). Her interests range from vector biology and transmission studies to the development of mathematical models to aid control policy, to inform and support the World Health Organization’s Roadmap on NTDs for 2021–2030. During 2018–2021 she was President of the British Society for Parasitology.",
+		"photo" : "images/presenters/mg_basanez.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/m.basanez/publications.html"
+
+	},
+	{
+		"identifier" : "i_blake",
+		"title" : "Dr",
+		"forenames" : ["Isobel"],
+		"postnominals": [""],
+		"surname" : "Blake",
+		"positions" : ["Lecturer"],
+		"description" : "Dr Blake's research is based upon using statistical and mathematical models to analyse surveillance data to inform the design of optimal intervention strategies. She has a particular interest in spatial epidemiology. Her recent research has been in collaboration with the Global Polio Eradication Initiative. This work has included estimating the contribution to poliovirus transmission by different age groups.",
+		"photo" : "images/presenters/i_blake.jpeg",
+		"pubs" : "http://www.imperial.ac.uk/people/isobel.blake/publications.html"
+
+	},
+	{
+		"identifier" : "thomas_churcher",
+		"title" : "Professor",
+		"forenames" : ["Thomas"],
+		"postnominals": [""],
+		"surname" : "Churcher",
+		"positions" : ["Professor in Infectious Disease Dynamics"],
+		"description" : "Prof Churcher's work mainly concentrates on malaria where he is investigating the processes regulating transmission between mosquito and man. In particular he is interested in the best ways of measuring transmission and looking into new ways assessing the effectiveness of different control interventions.",
+		"photo" : "images/presenters/t_churcher.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/thomas.churcher/publications.html"
+	},
+	{
+		"identifier" : "a_cori",
+		"title" : "Dr",
+		"forenames" : ["Anne"],
+		"postnominals": [""],
+		"surname" : "Cori",
+		"positions" : ["Senior Lecturer"],
+		"description" : "Dr Cori develops statistical methods and tools for the analysis of epidemic data. She is particularly interested in emerging infections, and contexts where data are scarce and statistical methods can be developed to answer important public health questions despite these limitations in data. She is the author of the R package EpiEstim. Her research mainly focuses on viruses including SARS-CoV-2, Ebola, MERS, influenza and HIV.",
+		"photo" : "images/presenters/anne.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/a.cori/publications.html"
+	},
+	{
+		"identifier" : "n_croucher",
+		"title" : "Dr",
+		"forenames" : ["Nick"],
+		"postnominals": [""],
+		"surname" : "Croucher",
+		"positions" : ["Reader in Bacterial Genomics"],
+		"description" : "Dr Croucher's work focuses on the evolution and epidemiology of bacterial pathogens, mainly the pneumococcus. He is particularly interested in the impact of vaccination on diverse microbial populations, the co-existence of antibiotic resistant and sensitive strains, and the effects of recombination on bacterial population structure. This research draws together mathematical modelling, genomic analyses and molecular biology, and seeks to aid decisions on improving vaccine design and treatment strategies. ",
+		"photo" : "images/presenters/n_croucher.jpg",
+		"pubs" : "https://www.imperial.ac.uk/people/n.croucher/publications.html"
+	},
+
+	{
+		"identifier" : "i_dorigatti",
+		"title" : "Dr",
+		"forenames" : ["Ilaria"],
+		"surname" : "Dorigatti",
+		"postnominals": [""],
+		"positions" : ["Senior Lecturer/Sir Henry Dale Fellow"],
+		"description" : "Dr Dorigatti's work combines the use of statistical and mathematical models to characterise the transmission dynamics of infectious diseases and assess the potential impact of interventions. She has worked on several emerging pathogens, including influenza, Ebola, Zika, Yellow Fever and dengue. She currently holds a Sir Henry Dale Fellowship to investigate the spatiotemporal dynamics of arboviruses (in particular dengue, Zika and Chikungunya) and evaluate how to best use new interventions to control disease transmission. Her interests also include outbreak analysis and modelling and she recently analysed the 2016-2018 Yellow Fever outbreaks in Southeast Brazil, the 2015-2016 Zika outbreak in Latin America and the 2013-2016 Ebola epidemic in West Africa. ",
+		"photo" : "images/presenters/ilaria.jpg",
+		"pubs" : "https://www.imperial.ac.uk/people/i.dorigatti/publications.html"
+	},
+	{
+		"identifier" : "jeffrey_eaton",
+		"title" : "Dr",
+		"forenames" : ["Jeff"],
+		"postnominals": [""],
+		"surname" : "Eaton",
+		"positions" : ["Reader in HIV Epidemiology"],
+		"description" : "Dr Eaton's research involves using mathematical models and statistical analysis to characterise HIV trends and the potential impacts of HIV prevention strategies. He co-chairs the UNAIDS Reference Group on Estimates, Modelling, and Projections, which provides scientific guidance to UNAIDS and partner organisations on epidemiologic methods and modelling (https://www.epidem.org/). His research group in the MRC Centre for Global Infectious Disease Analysis develops models and software tools used annually by national HIV programmes to produce official HIV epidemic estimates (https://hivtools.unaids.org/). He collaborates extensively with the Manicaland Centre for Public Health Research (http://www.manicalandhivproject.org/) in eastern Zimbabwe, and is a co-investigator of the ALPHA Network of population HIV cohort studies (https://alpha.lshtm.ac.uk/).",
+		"photo" : "images/presenters/jeff.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/jeffrey.eaton/publications.html"
+
+	},
+	{
+		"identifier" : "neil_ferguson",
+		"title" : "Professor",
+		"forenames" : ["Neil"],
+		"postnominals": ["OBE", "FMedSci"],
+		"surname" : "Ferguson",
+		"positions" : [
+			"Head, Department of Infectious Disease Epidemiology",
+			"Professor of Mathematical Biology"
+		],
+		"description" : "Prof Ferguson is the founding director of the MRC Centre for Outbreak Analysis and Modelling (now the MRC Centre for Global Infectious Disease Analysis) and the NIHR Health Protection Research Unit for Modelling Methodology. His research aims to understand the epidemiological factors shaping infectious disease transmission in human and animal populations. A key practical focus is aiding disease control policy making through intervention modelling. Prof Ferguson uses models as contingency planning tools for emerging human infections (COVID-19, MERS-CoV, ebola, pandemic influenza), and also undertakes research on the dynamics and control of vector-borne diseases (dengue, yellow fever and malaria) and evolution. He advises the UK and US governments, the World Health Organization and the European Union on emerging infections and infectious disease modelling.",
+		"photo" : "images/presenters/n_ferguson.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/neil.ferguson/publications.html"
+
+	},
+	{
+		"identifier" : "a_ghani",
+		"title" : "Professor",
+		"forenames" : ["Azra"],
+		"postnominals": ["MBE", "FMedSci"],
+		"surname" : "Ghani",
+		"positions" : [
+			"Professor in Infectious Disease Epidemiology",
+			"Member, UK government's Spongiform Encephalopathy Advisory Committee (SEAC)",
+			"Visiting Professor, Lee Kong Chian School of Medicine, Nanyang Technical University, Singapore"
+		],
+		"description" : "Prof Ghani's research combines the use of mathematical models and statistical methods to explore the impact of interventions against infections of humans and animals, with a focus on results which can inform policy. In the past she has worked on a range of infectious diseases including sexually transmitted infections/HIV, BSE/vCJD, SARS and influenza. More recently her research has focussed on the development of models that can inform policies on how, where and when to implement different interventions against malaria to aid local elimination, and eventual eradication, of the parasite. Since 2020 she has also supported the response to the COVID-19 pandemic, focusing on global impact estimates and evaluation of vaccination strategies. This includes working with key global health agencies including WHO, Gavi and The Global Fund.",
+		"photo" : "images/presenters/azra.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/a.ghani/publications.html"
+
+
+	},
+	{
+		"identifier" : "n_grassly",
+		"title" : "Professor",
+		"forenames" : ["Nicholas"],
+		"postnominals": [""],
+		"surname" : "Grassly",
+		"positions" : [
+			"Professor of Infectious Disease and Vaccine Epidemiology"
+		],
+		"description" : "Prof Grassly is an epidemiologist and biologist with a particular interest in vaccines and intestinal infections. He leads the Vaccine Epidemiology research group within the department. Over the last decade he has worked extensively on poliovirus, identifying failure of the oral vaccine in India as a major challenge to global eradication. A major focus of current research is to understand and improve the response to live oral vaccines, which are poorly immunogenic when given to children in low-income countries. His group also works closely with the Global Polio Eradication Initiative as a collaborating institute on data analysis and modelling.",
+		"photo" : "images/presenters/nick.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/n.grassly/publications.html"
+	},
+	{
+		"identifier" : "timothy_hallett",
+		"title" : "Professor",
+		"forenames" : ["Timothy"],
+		"postnominals": [""],
+		"surname" : "Hallett",
+		"positions" : [
+			"Professor of Global Health"
+		],
+		"description" : "Prof Hallett is an Associate Director of the MRC Centre for Global Infectious Disease Analysis and a lead investigator at the Jameel Institute. His main research interests are characterising the epidemiology of, and the potential impact of interventions for, some of the most high burden infectious diseases globally (e.g. for HIV, HBV, HCV, TB), and understanding how resources available for healthcare systems can be used to generate the greatest health gains for the population they serve (see tlomodel.org).",
+		"photo" : "images/presenters/tim.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/timothy.hallett/publications.html"
+	},
+	{
+		"identifier" : "k_hauck",
+		"title" : "Professor",
+		"forenames" : ["Katharina"],
+		"postnominals": [""],
+		"surname" : "Hauck",
+		"positions" : [
+			"Professor in Health Economics"
+		],
+		"description" : "Prof Hauck specialises in the economics of infectious diseases and the economic evaluation of complex public health interventions. Her specific research interests focus on the economics of HIV/AIDS, health system performance, priority setting and cost-effectiveness analysis, economic impact of epidemics, and the role of individual behaviour in infectious disease transmission. ",
+		"photo" : "images/presenters/k_hauck.jpg",
+		"pubs" : "https://www.imperial.ac.uk/people/k.hauck/publications.html"
+	},
+
+	{
+		"identifier" : "clare_mccormack",
+		"title" : "Dr",
+		"forenames" : ["Clare"],
+		"postnominals": [""],
+		"surname" : "McCormack",
+		"positions" : [
+			"Research Associate"
+		],
+		"description" : "Dr McCormack's research focuses on developing mathematical models to help understand the transmission and control of dengue. She is currently developing models to explore the within-host dynamics of dengue virus infection in different host species. Previously, she worked on modelling fine-scale mosquito population dynamics, and assessing the impact of novel vector control measures.",
+		"photo" : "images/presenters/clare.jpg",
+		"pubs" : "https://www.imperial.ac.uk/people/c.mccormack14/publications.html"
+
+	},        {
+		"identifier" : "k_mitchell",
+		"title" : "Dr",
+		"forenames" : ["Kate"],
+		"postnominals": [""],
+		"surname" : "Mitchell",
+		"positions" : ["Advanced Research Fellow"],
+		"description" : "Dr Mitchell is an Advanced Research Fellow working for the HIV Prevention Trials Network (HPTN) Modelling Centre. She develops and uses models of HIV transmission among key populations to inform and interpret clinical trials. Currently she is investigating the potential impact of long-acting injectable pre-exposure prophylaxis (PrEP) among HIV-infected men who have sex with men (MSM) in the US. Previously she has modelled HIV and STI transmission and control amongst key populations – including MSM, female sex workers, and serodiscordant couples - in southern India, China and Nigeria.",
+		"photo" : "images/presenters/katemitchell.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/kate.mitchell/publications.html"
+	},
+	{
+		"identifier" : "l_okell",
+		"title" : "Dr",
+		"forenames" : ["Lucy"],
+		"postnominals": [""],
+		"surname" : "Okell",
+		"positions" : [
+			"Senior Lecturer/Royal Society Dorothy Hodgkin Research Fellow"
+		],
+		"description" : "Dr Okell's research interests are the development of mathematical models of malaria and analysis of epidemiological data in collaboration with policy-makers to better understand malaria burden, the impact of public health interventions and to inform malaria control policy. Her research focuses particularly on malaria treatment, diagnosis and drug resistance.",
+		"photo" : "images/presenters/l_okell.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/l.okell/publications.html"
+
+	},
+	{
+		"identifier" : "n_pathy",
+		"title" : "Professor",
+		"forenames" : ["Nimalan"],
+		"postnominals": [""],
+		"surname" : "Arinaminpathy",
+		"positions" : [
+			"Professor in Mathematical Epidemiology"
+		],
+		"description" : "Prof Arinaminpathy's work involves applying mathematical and statistical tools to study the transmission dynamics of infectious diseases, with equal interest in basic science and policy-focused analysis. His focus is on the dynamics and control of human tuberculosis (TB), as well as influenza. He works with national TB programmes in high-burden settings (particularly India and other countries in South Asia), to help in their strategic planning. Since 2020, he has also been working closely with public health authorities in India to help inform their COVID-19 response.",
+		"photo" : "images/presenters/nim.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/nim.pathy/publications.html"
+
+	},
+	{
+		"identifier" : "m_pickles",
+		"title" : "Dr",
+		"forenames" : ["Mike"],
+		"postnominals": [""],
+		"surname" : "Pickles",
+		"positions" : [
+			"Research Fellow"
+		],
+		"description" : "Dr Pickles' research interests centre on the development of mathematical models to help in understanding how the complex interaction of social, individual and biological factors influences the HIV epidemic, for example the role of key populations or the effects of conflict. He is particularly interested in the use of models to optimize HIV prevention programmes for the local context in which they are situated, to ensure that they maximize the health benefits and are as cost-effective as possible.",
+		"photo" : "images/presenters/m_pickles.jpg",
+		"pubs" : "https://www.imperial.ac.uk/people/m.pickles/publications.html"
+
+	},
+	{
+		"identifier" : "s_riley",
+		"title" : "Professor",
+		"forenames" : ["Steven"],
+		"postnominals": [""],
+		"surname" : "Riley",
+		"positions" : [
+			"Professor of Infectious Disease Ecology &amp; Epidemiology"
+		],
+		"description" : "Prof Riley studies the transmission of human pathogens, conducting field studies, analysing data and using mathematical models to look at scientific questions that are relevant to public health: how does our pattern of social contacts affect the transmission of respiratory infections? How much more severe is one strain of influenza than another? How far does influenza penetrate into rural areas after is sweeps through cities?",
+		"photo" : "images/presenters/steve.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/s.riley/publications.html"
+	},
+
+	{
+		"identifier" : "patrick_walker06",
+		"title" : "Dr",
+		"forenames" : ["Patrick"],
+		"postnominals" : [""],
+		"surname" : "Walker",
+		"positions" : ["Senior Lecturer"],
+		"description" : "Dr Walker's research involves using mathematical models to better understand the impacts of interventions on malaria transmission, and the associated burden of disease. He has particular interests with the effects of malaria during pregnancy, and exploring the optimal package of interventions to achieve malaria elimination across Africa.",
+		"photo" : "images/presenters/patrick.jpg",
+		"pubs" : "http://www.imperial.ac.uk/people/patrick.walker06/publications.html"
+
+	},
+	{
+		"identifier" : "p_white",
+		"title" : "Professor",
+		"forenames" : ["Peter"],
+		"postnominals": [""],
+		"surname" : "White",
+		"positions" : [
+			"Professor of Public Health Modelling"
+		],
+		"description" : "Prof White is Head of the Modelling &amp; Economics Unit of the UK Health Security Agency, and work part-time in the MRC Centre for Global Infectious Disease Analysis. He is also Co-Director of the NIHR Health Protection Research Unit in Modelling &amp; Health Economics at Imperial College London in partnership with LSHTM and Public Health England. Prof White researches STIs, HIV, TB, influenza, and SARS-CoV-2, with a range of collaborators including the Universities of Birmingham, Bristol, and Warwick; University College London; Harvard University; and others; with funding from Wellcome Trust, MRC, and NIHR",
+		"photo" : "images/presenters/p_white.JPG",
+		"pubs" : "http://www.imperial.ac.uk/people/p.white/publications.html"
+
+	},
+		{
+		"identifier" : "l_whittles",
+		"title" : "Dr",
+		"forenames" : ["Lilith"],
+		"postnominals": [""],
+		"surname" : "Whittles",
+		"positions" : [
+			"Sir Henry Wellcome Postdoctoral Fellow"
+		],
+		"description" : "Dr Whittles is an infectious disease modeller with a background in mathematics and statistics. She uses Bayesian methods to study the transmission of pathogens, including COVID-19, Group A Streptococcus and sexually transmitted infections. Her research aims to answer important public health questions, such as quantifying the potential impact of a new intervention, and assessing how best to implement it.",
+		"photo" : "images/presenters/lilith.jpg",
+		"pubs" : "https://www.imperial.ac.uk/people/l.whittles/publications.html"
+
+	},{
+		"identifier" : "p_winskill",
+		"title" : "Dr",
+		"forenames" : ["Pete"],
+		"postnominals": [""],
+		"surname" : "Winskill",
+		"positions" : [
+			"Research Fellow"
+		],
+		"description" : "Dr Winskill is an Imperial College Research Fellow (ICRF) based in the MRC centre for Global Infectious Disease Analysis. The focus of his fellowship is to use modelling to improve understanding of the impact and cost-effectiveness of community-based interventions against pneumonia, diarrhoea and malaria in children living in LMICs. He is working to develop models of community health workers (CHWs) working within the integrated community case management (iCCM) framework to improve diagnosis and treatment of these major causes of childhood mortality. He also continues to work on many projects that aim to provide insight and policy-relevant recommendations for applied questions in malaria control such as, optimal intervention packages, prioritisation of interventions and allocation of funding.",
+		"photo" : "images/presenters/p_winskill.jpg",
+		"pubs" : "https://www.imperial.ac.uk/people/p.winskill/publications.html"
+
+	}
+]

@@ -1,0 +1,271 @@
+	@import "bootstrap.min.css";
+@import "bootstrap-responsive.min.css";
+@import url(http://fonts.googleapis.com/css?family=Lato);
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body
+{
+	font-family: Lato, Helvetica, sans-serif;
+	font-size : 12pt;
+}
+
+footer
+{
+	border-top: 1px solid #d4d4d4;
+	padding-top : 0.5em;
+	margin-top : 1em;
+}
+   
+h1{
+	font-size : 20pt;
+}
+
+h2
+{
+	font-size : 16pt;
+}
+
+h3
+{
+	font-size: 14pt;
+}
+
+label
+{
+	text-align : right;
+}
+
+input
+{
+	width : 100%;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	border-radius: 1em;
+}
+
+.container
+{
+	margin-top: 55px;
+}
+
+@media (max-width: 979px) {
+	.container
+	{
+		margin-top: 0px;
+	}
+}
+
+.navbar .container 
+{
+	margin-top: 0px;
+}
+
+.navbar-inner
+{
+	padding: 0;
+}
+
+ul.nav 
+{
+	margin-top : 14px;
+}	
+
+.page-header
+{
+	margin-bottom: 1em;
+}
+
+.callout
+{
+	border: 1px solid #d9d9d9;
+	background-color: #EEEEEE;
+	padding: 0em 1em 1em 1em;
+	border-radius: 1em;
+}
+
+.carousel
+{
+	width : 370px;
+	height : 250px;
+}
+
+.carousel .item > img {
+	width : 97%;
+}
+
+.headshot
+{
+	height: 200px;
+	margin: 0.5em 1em 0.5em 0;
+}
+
+.footnote
+{
+	margin-top : 1em;
+	padding-top : 0.5em;
+	border-top: 1px solid #d9d9d9;
+}
+
+.unstyled.positions li
+{
+	font-weight : bold;
+	font-size : 12pt;
+	margin-bottom : 0.4em;
+}
+
+.publications li
+{
+	margin-bottom : 0.5em;
+	padding-bottom : 0.5em;
+	border-bottom : 1px solid #EEEEEE;
+}
+
+.tabbable .divider
+{
+	height : 1.5em;
+}
+
+form  .control .alert-error
+{
+	display : inline-block;
+}
+
+
+.day
+{	
+	height : 50.0em;
+	padding : 0.5em 0.5em 0.5em 0.5em;
+	border : 1px solid #d9d9d9
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.day
+	{
+		height : 47.5em;
+	}
+}
+
+@media (min-width: 980px) and (min-width: 1200px) {
+	.day
+	{
+		height : 44em;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.day 
+	{
+		height : auto;
+	}
+}
+
+.day  p .presenter
+{
+	margin-top : 0.2em;
+	display : block;
+}
+
+.sunday
+{
+	height: 15em;
+}
+
+
+.practical, .lecture, .social, .break, .invited, .keynote, .qanda
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.practical:before, .lecture:before, .social:before, .break:before, .invited:before, .keynote:before, .qanda:before
+{
+	font-size: 20px;
+	font-weight : bold;
+	float : right;
+	color: white;
+	margin-left : 0.5em;
+	width : 5em;
+	text-align : right;
+}
+
+.practical 
+{
+	background-color : #a6bfdd;
+}
+
+.panorama
+{
+	margin-top : 1em;
+}
+
+.lecture
+{
+	background-color : #a6dbc8;
+}
+
+.social
+{
+	background-color : #b6a6db;
+}
+
+.break
+{
+	background-color : #d6e6cb;
+}
+
+.invited, .keynote
+{
+	background-color : #dba6a6;
+}
+
+.qanda
+{
+    background-color: #f3dc94;
+
+}
+
+.lecture:before
+{
+	content : "Lecture";
+}
+
+.social:before
+{
+	content : "Social";
+}
+
+.break:before
+{
+	content : "Break";
+}
+
+
+.invited:before
+{
+	content : "Invited";
+}
+
+.keynote:before
+{
+    content : "Keynote";
+}
+
+.qanda:before
+{
+    content : "Q & A";
+}
+
+.practical:before
+{
+    content : "Practical";
+}
+
+p .img-polaroid
+{
+	margin : 5px;
+}

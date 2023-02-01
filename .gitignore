@@ -1,0 +1,4 @@
+uploads
+*.bak
+data/db_metadata.php
+package-lock.json
