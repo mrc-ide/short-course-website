@@ -94,7 +94,7 @@
               
               <div id="accomodation" class="tab-pane">
                 <h2>Accommodation</h2>
-                <p>Single bedroom accommodation is available in local hotels within easy access to the St. Mary's Hospital Campus. Student accommodation at the South Kensington campus is also available (<a href="https://www.imperial.ac.uk/visit/summer-accommodation/">https://www.imperial.ac.uk/visit/summer-accommodation/</a>). For further details and reservations, please contact:</p>    
+                <p>Single bedroom accommodation is available in local hotels within easy access to the St. Mary's Hospital Campus. Student accommodation at the South Kensington campus is also available (<a href="https://www.imperial.ac.uk/visit/summer-accommodation/">https://www.imperial.ac.uk/visit/summer-accommodation/</a>).</p>    
               </div>
               <div id="visas" class="tab-pane">
                 <h2>Visas</h2>
