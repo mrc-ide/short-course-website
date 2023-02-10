@@ -56,7 +56,7 @@
     
               <div id="payment" class="tab-pane">
                 <h2>Payment</h2>
-                <p>The fee for course is <?=$early_cost ?> if booked before <?=friendly_date($early_booking_date) ?>, and <?=$standard_cost ?> if booked after that date.</p>
+                <p>The fee for course is &pound;<?=$early_cost ?> if booked before <?=friendly_date($early_booking_date) ?>, and &pound;<?=$standard_cost ?> if booked after that date.</p>
 
                 <p>The optional maths and Excel refresher day the day before the course starts is free of charge. The fee covers tuition, social events and a comprehensive set of digital course notes.</p>
                 <p>We can accept payment by credit card (we accept Visa, MasterCard or JCB), debit card (we accept Visa, Visa Electron, Maestro or Solo), or cheque / bank draft. We ask you to indicate your method of payment when you apply for the course. </p>
