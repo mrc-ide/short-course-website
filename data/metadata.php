@@ -20,4 +20,8 @@ $standard_cost = "2500";
 
 $last_payment_date = "2023-08-31";
 
+$acc_policy_created = "2023-01-16";
+$acc_policy_updated = "2023-01-16";
+$acc_compliance_test = "2023-02-01";
+
 ?>
