@@ -12,8 +12,6 @@
     $branch = preg_split("/\r\n|\n|\r/", $branch)[0];
     $branch = preg_replace("/On branch /", "", $branch);
 
-    print_r($_POST);
- 
     ///////////////////////////////////////////
     // Is this not a github payload?
     ///////////////////////////////////////////
