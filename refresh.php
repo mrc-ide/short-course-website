@@ -52,7 +52,7 @@
         $merged = $payload->{'merged_at'};
         if ($merged == "null") {
           http_response_code(200);
-          echo "PR was closed without merging. No action.");
+          echo "PR was closed without merging. No action.";
           exit();
         }
 
