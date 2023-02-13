@@ -47,7 +47,20 @@
       exit();
     }
 
+    ////////////////////////////////////////////////////////
+    // On main branch, we only want to respond on a merge.
+    ////////////////////////////////////////////////////////
+
+    $event = $_SERVER('HTTP_X_GITHUB_EVENT');
+    if (($branch == "main") && ($event != "merge")) {
+      http_response_code(200);
+      echo "Main branch only pulls on merge events");
+      exit();
+    }
+    
+    ///////////////////
     // Do the update
+    ///////////////////
 
     $out = shell_exec("git pull origin ".$branch." 2>&1");
     http_response_code(200);
