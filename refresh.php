@@ -51,7 +51,7 @@
 
     // Do the update
 
-    $out = shell_execute("pit pull origin ".$branch." 2>&1");
+    $out = shell_exec("pit pull origin ".$branch." 2>&1");
     http_response_code(200);
     echo $out;
 
