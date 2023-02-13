@@ -34,9 +34,40 @@
       die("Signature did not match");
     }
 
-    ////////////////////////////////////////
-    // check the ref matches our branch
-    //////////////////////////////////////////////
+    ////////////////////////////////////////////////////////
+    // Deal with pull request event (only on main branch)
+    ////////////////////////////////////////////////////////
+
+    $event = $_SERVER('HTTP_X_GITHUB_EVENT');
+    if ($event == "pullrequest") {
+      if ($branch == "main") {
+        
+        $action = $payload->{'action'}
+        if ($action != "closed") {
+          http_response_code(200);
+          echo "PR not yet closed.";
+          exit();
+        }
+
+        $merged = $payload->{'merged_at'};
+        if ($merged == "null") {
+          http_response_code(200);
+          echo "PR was closed without merging. No action.");
+          exit();
+        }
+
+        $out = shell_exec("git pull 2>&1");
+        http_response_code(200);
+        echo $out;
+      }
+      
+      exit();
+    }
+
+    
+    /////////////////////////////////////////////////////
+    // Not on master. Check the ref matches our branch
+    /////////////////////////////////////////////////////
 
     $payload = json_decode($_POST['payload']);
     $ref = $payload->{'ref'};
@@ -47,16 +78,6 @@
       exit();
     }
 
-    ////////////////////////////////////////////////////////
-    // On main branch, we only want to respond on a merge.
-    ////////////////////////////////////////////////////////
-
-    $event = $_SERVER('HTTP_X_GITHUB_EVENT');
-    if (($branch == "main") && ($event != "merge")) {
-      http_response_code(200);
-      echo "Main branch only pulls on merge events");
-      exit();
-    }
     
     ///////////////////
     // Do the update
