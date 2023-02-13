@@ -10,7 +10,7 @@
 
   if ($command == "meta") {
     $csv = fopen("php://memory", "w");
-    fwrite($csv, "id,title,first_name,surname,date,cv_file,cover_file\n");
+    fwrite($csv, "id,title,first_name,surname,email,date,cv_file,cover_file\n");
 
   } else if ($command == "cvs") {
     $tmpzip = tempnam(sys_get_temp_dir(), "epi");
@@ -43,6 +43,7 @@
         fwrite($csv, dq($row['title']).",");
         fwrite($csv, dq($row['firstname']).",");
         fwrite($csv, dq($row['surname']).",");
+        fwrite($csv, dq($row['email']).",");
         fwrite($csv, dq($dt2).",");
         fwrite($csv, dq($row['FILE1']).",");
         fwrite($csv, dq($row['FILE2'])."\n");
@@ -64,7 +65,7 @@
   if ($command == "meta") {
     fseek($csv, 0);
     header('Content-type: text/csv');
-    header('Content-Disposition: attachment; filename="shortcourse_export.csv")');
+    header('Content-Disposition: attachment; filename="shortcourse_export.csv"');
     fpassthru($csv);
 
   } else if ($command == "cvs") {
