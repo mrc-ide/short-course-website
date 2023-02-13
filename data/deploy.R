@@ -13,6 +13,7 @@ create_db_metadata <- function(path = "./db_metadata.php") {
     sprintf('                   "PWD"      => "%s");', data$db_password),
     '',
     sprintf('  $upload_path = "%s";', data$upload_path), '',
+    sprintf('  $github_secret = "%s";', data$github_secret), '',
     '?>',
     sep = "\n")
   

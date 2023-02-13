@@ -3,7 +3,9 @@
   include "data/metadata.php";
   include "scripts/utils.php";
   include "header.php";
-  include "timetable.php";
+  if ($show_timetable) {
+    include "timetable.php";
+  }
 
 ?>
 
@@ -60,7 +62,9 @@
               <li><a href="#courseaims" data-toggle="tab">Course aims</a></li>
               <li><a href="#who" data-toggle="tab">Who should attend</a></li>
               <li><a href="#content" data-toggle="tab">Course Structure</a></li>
-              <!--<li><a href="#timetable" data-toggle="tab">Timetable</a></li>//-->
+<?php if ($show_timetable) { ?>
+              <li><a href="#timetable" data-toggle="tab">Timetable</a></li>
+<?php } ?>
               <li><a href="#presenters" data-toggle="tab">Presenters</a></li>
               <li><a href="#social" data-toggle="tab">Social Activities</a></li>
               <li><a href="#comments" data-toggle="tab">Comments</a></li>
@@ -150,7 +154,7 @@
                   </div>
                 </div>
               </div>
-
+<?php if ($show_timetable) { ?>
               <div id="timetable" class="tab-pane" style="text-align:center">
                 <h2>Provisional Timetable</h2>
              
@@ -159,6 +163,7 @@
                 <?php print_menu(); ?>
 
               </div>
+<?php } ?>
             
               <div id="presenters" class="tab-pane">
                 <div class="row-fluid tabbable">

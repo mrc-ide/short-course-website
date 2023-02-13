@@ -5,6 +5,7 @@ include "db_metadata.php";
 // Are we accepting applications at the moment?
 
 $applications_open = true;
+$show_timetable = false;
 
 // Start and end dates of course
 
