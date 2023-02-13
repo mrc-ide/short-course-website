@@ -42,7 +42,7 @@
     if ($event == "pullrequest") {
       if ($branch == "main") {
         
-        $action = $payload->{'action'}
+        $action = $payload->{'action'};
         if ($action != "closed") {
           http_response_code(200);
           echo "PR not yet closed.";
