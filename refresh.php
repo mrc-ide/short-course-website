@@ -3,7 +3,7 @@
 
   function run() {
     global $github_secret;
- 
+
     //////////////////////////////////////
     // What's my branch?
     //////////////////////////////////////
@@ -20,6 +20,8 @@
       http_response_code(400);
       die("Not a github payload");
     }
+
+    $payload = json_decode($_POST['payload']);
 
     //////////////////////////////////////////
     // Check the secret key matches ours
@@ -38,10 +40,10 @@
     // Deal with pull request event (only on main branch)
     ////////////////////////////////////////////////////////
 
-    $event = $_SERVER('HTTP_X_GITHUB_EVENT');
-    if ($event == "pullrequest") {
+    $event = $_SERVER['HTTP_X_GITHUB_EVENT'];
+
+    if ($event == "pull_request") {
       if ($branch == "main") {
-        
         $action = $payload->{'action'};
         if ($action != "closed") {
           http_response_code(200);
@@ -49,8 +51,8 @@
           exit();
         }
 
-        $merged = $payload->{'merged_at'};
-        if ($merged == "null") {
+        $merged_at = $payload->{'pull_request'}->{'merged_at'};
+        if ($merged_at == "null") {
           http_response_code(200);
           echo "PR was closed without merging. No action.";
           exit();
@@ -60,16 +62,13 @@
         http_response_code(200);
         echo $out;
       }
-      
       exit();
     }
 
-    
     /////////////////////////////////////////////////////
     // Not on master. Check the ref matches our branch
     /////////////////////////////////////////////////////
 
-    $payload = json_decode($_POST['payload']);
     $ref = $payload->{'ref'};
     $ref = str_replace("refs/heads/", "", $ref);
     if ($ref != $branch) {
@@ -78,7 +77,6 @@
       exit();
     }
 
-    
     ///////////////////
     // Do the update
     ///////////////////
