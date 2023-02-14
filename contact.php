@@ -17,7 +17,8 @@
           <hr>
       
           <p><strong>Email :</strong> <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">infectiousdiseasemodels@imperial.ac.uk</a></p>
-          <p>
+          <hr>
+          
             <strong>Post:</strong> 
             <br>
             <address>
@@ -27,7 +28,7 @@
               London<br>
               W2 1PG<br>
             </address>
-          </p>
+          
         </div>
         <div class="span4">
         </div>
