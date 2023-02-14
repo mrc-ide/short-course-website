@@ -17,6 +17,21 @@
 
     <link rel="stylesheet" type="text/css" href="<?= $cpath ?>css/main.css">
 
+    <style>
+      .hero {
+        background : url('images/panorama_home_sm.jpg') no-repeat bottom right;
+        text-align : left;
+        min-height : 200px;
+        padding: 0.5em 1em 1em 1em;
+        text-shadow : 2px 2px #ffffff;
+        border-radius : 1em;
+        border: 1px solid #CCCCCC;
+      }
+
+      .hero h1, .hero h3 {
+        margin : 0;
+      }
+    </style>
   </head>
 
   <body>
