@@ -45,10 +45,10 @@
 
       <div class="row-fluid">
         <div class="span8">
-          <p class="lead"><span style="color:#800000"><strong><u>IN-PERSON COURSE FOR 2023:</u></span><span style="color:#800000"> We look forward to welcoming delegates in person in 2023, circumstances permitting. We will be monitoring developments in the COVID-19 pandemic closely and if a move to remote teaching is necessary will keep delegates informed regarding logistics and fees.
+          <p class="lead"><span style="color:#800000"><strong><u>IN-PERSON COURSE FOR 2023:</u></strong></span><span style="color:#800000"> We look forward to welcoming delegates in person in 2023, circumstances permitting. We will be monitoring developments in the COVID-19 pandemic closely and if a move to remote teaching is necessary will keep delegates informed regarding logistics and fees.
           </strong></span></p>
 
-          <hr/>
+          <hr>
           <p class="lead"> Taught by leading researchers who advise policy-makers internationally. Topics include HIV, TB, malaria, Ebola, COVID-19, health economics, vaccination programmes, stochastic models &amp; more.</p>
 
           <h3>Organised by:</h3>
@@ -98,14 +98,14 @@
         </div>
         <ul>
           <li><?= friendly_date_span($start_date, $end_date) ?></li>
-          <li><strong>Free Maths and Excel Refresher Day:<br/></strong><?= friendly_date($maths_date) ?></li>
+          <li><strong>Free Maths and Excel Refresher Day:<br></strong><?= friendly_date($maths_date) ?></li>
           <li>Cost: <?= cost($early_cost) ?> before <?= friendly_date($early_booking_date) ?>, <?= cost($standard_cost) ?> after. </li>
           <li><strong>Applications for <?= year_span($start_date, $end_date) ?> are now <?= ($applications_open) ? "open" : "closed" ?></strong></li>
           <li><a href="information#payment">A limited number of full scholarships</a> (covering course fees, flights and accommodation) are available for candidates from LMICs. The deadline for scholarship applications is <?= friendly_date($scholarship_date) ?>.</li>
         </ul>
         <p>
-          <strong>Contact: <a href="https://www.imperial.ac.uk/people/l.whittles">Dr Lilith Whittles</a> or <a href="https://www.imperial.ac.uk/people/c.mccormack14">Dr Clare McCormack</a></strong><br/>
-          <strong>Email:</strong> <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">infectiousdiseasemodels@imperial.ac.uk</a><br/>
+          <strong>Contact: <a href="https://www.imperial.ac.uk/people/l.whittles">Dr Lilith Whittles</a> or <a href="https://www.imperial.ac.uk/people/c.mccormack14">Dr Clare McCormack</a></strong><br>
+          <strong>Email:</strong> <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">infectiousdiseasemodels@imperial.ac.uk</a><br>
         </p>
       </div>
     </div>
