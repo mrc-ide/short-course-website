@@ -16,6 +16,10 @@
     echo "<script>document.fdate.dateto.value = '".$_POST['dateto']."';</script>";
   }
 
+  if (!isset($_POST['datefrom'])) $_POST['datefrom'] = "";
+  if (!isset($_POST['dateto'])) $_POST['dateto'] = "";
+
+
   function get_data() {
     global $db_info, $db_host, $datefrom, $dateto;
     $con = sqlsrv_connect($db_host, $db_info);
@@ -57,9 +61,9 @@
 <form action="index.php" method="post" id="fdate" name="fdate" class="form-horizontal">
   <table class="text-align:center" style="padding: 20px"><tr>
     <td>Between</td>
-    <td><input class="input-medium" type="date" name="datefrom" id="datefrom" value="<?= $datefrom ?>"></td>
+    <td><input class="input-medium" type="date" name="datefrom" id="datefrom" value="<?= $_POST['datefrom'] ?>"></td>
     <td>and</td>
-    <td><input class="input-medium" type="date" name="dateto" id="dateto" value="<?= $dateto ?>"></td>
+    <td><input class="input-medium" type="date" name="dateto" id="dateto" value="<?= $_POST['dateto'] ?>"></td>
     <td><button type="submit" class="btn btn-primary">Filter</button></td>
   </tr></table>
 </form>
