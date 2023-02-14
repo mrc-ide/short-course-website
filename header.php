@@ -31,6 +31,15 @@
       .hero h1, .hero h3 {
         margin : 0;
       }
+
+      #map {
+        height : 250px;
+      }
+
+      #map img {
+        max-width: none;
+      }
+
     </style>
   </head>
 
