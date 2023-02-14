@@ -122,7 +122,7 @@
               <div id="FILE2_err" class="error_message span6"></div>
               <input type="hidden" name="saveto" value="disk">
             </div>
-
+            <hr>
             <div class="row-fluid">
               <div class="span4 offset2">
                 <p><strong>All fields are required</strong></p>

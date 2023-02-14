@@ -7,9 +7,9 @@
 ?>
     <h1>Accessibility</h1>
 
-    This statement applies to content published on <a href="infectiousdiseasemodels.org">infectiousdiseasemodels.org</a><br/>&nbsp;<br/>
+    This statement applies to content published on <a href="infectiousdiseasemodels.org">infectiousdiseasemodels.org</a><br>&nbsp;<br>
 
-    We want as many people as possible to be able to use this website. For example, that means you should be able to:<br/>&nbsp;<br/>
+    We want as many people as possible to be able to use this website. For example, that means you should be able to:<br>&nbsp;<br>
 
     <ul>
       <li>Resize your window with content being reformatted appropriately</li>
@@ -21,7 +21,7 @@
 
     <h1>How accessible the website is</h1>
 
-    Parts of this website may not be fully accessible. For example:<br/>&nbsp;<br/>
+    Parts of this website may not be fully accessible. For example:<br>&nbsp;<br>
 
     <ul>
       <li>It may not be entirely navigable by keyboard</li>
