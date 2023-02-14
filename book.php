@@ -105,19 +105,19 @@
               <div class="span4"><input type="email" name="email2" id="email2" class="required"></div>
               <div id="email2_err" class="error_message span6"></div>
             </div>
-
+            <hr>
             <div class="row-fluid">
-              <label class="span2" for="file1">Attach CV</label>
+              <label class="span2" for="FILE1">Attach CV</label>
               <div class="span4"><input type="file" size="50" name="FILE1" id="FILE1" class="required">
-                <span class="help-block">Please use your surname in the name of the file.</span>
+                <span class="help-block">Please include your surname in the name of the file.</span>
               </div>
               <div id="FILE1_err" class="error_message span6"></div>
             </div>
-
+            <hr>
             <div class="row-fluid">
-              <label class="span2" for="file1">Attach Cover Letter</label>
+              <label class="span2" for="FILE2">Attach Cover Letter</label>
               <div class="span4"><input type="file" size="50" name="FILE2" id="FILE2" class="required">
-                <span class="help-block">Please use your surname in the name of the file.</span>
+                <span class="help-block">Please include your surname in the name of the file.</span>
               </div>
               <div id="FILE2_err" class="error_message span6"></div>
               <input type="hidden" name="saveto" value="disk">
