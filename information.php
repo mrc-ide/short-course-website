@@ -16,6 +16,13 @@
           $('a[href=#getting_here]').on('shown',function(){
           });
         });
+
+        function reload(id) {
+          var buggyid = document.getElementById(id);
+          buggyid.src = buggyid.src;
+        }
+
+        setTimeout(reload, 500, 'map');
       </script>
 
       <header class="page-header">
@@ -76,7 +83,7 @@
                     <a href="http://maps.google.co.uk/maps?f=q&hl=en&geocode=&q=w2+1pg&sll=53.800651,-4.064941&sspn=25.410451,64.423828&ie=UTF8&ll=51.517763,-0.173163&spn=0.006336,0.015728&z=17&g=w2+1pg&iwloc=addr">Please click here for journey planning routes.</a>
                   </div>
                   <div class="span4">
-                    <iframe style="border: 0px; margin: 0px 0px 0px 0px; overflow:hidden;" width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.17644107341766357%2C51.51592028776117%2C-0.16936004161834717%2C51.518958004956936&amp;layer=mapnik&amp;marker=51.51743750260857,-0.17317414283752441" style="border: 1px solid black"></iframe><br><small><a href="https://www.openstreetmap.org/?mlat=51.51744&amp;mlon=-0.17317#map=18/51.51744/-0.17317">View Larger Map</a></small>
+                    <iframe id="map" style="border: 1px solid black; margin: 0px 0px 0px 0px; overflow:hidden;" width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.17644107341766357%2C51.51592028776117%2C-0.16936004161834717%2C51.518958004956936&amp;layer=mapnik&amp;marker=51.51743750260857,-0.17317414283752441"></iframe><br><small><a href="https://www.openstreetmap.org/?mlat=51.51744&amp;mlon=-0.17317#map=18/51.51744/-0.17317">View Larger Map</a></small>
                   </div>
                 </div>
               </div>
