@@ -93,7 +93,6 @@
           <strong>Email:</strong> <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">infectiousdiseasemodels@imperial.ac.uk</a><br>
         </p>
       </div>
-    </div>
 
 <?php
   include "footer.php"

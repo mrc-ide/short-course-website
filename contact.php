@@ -32,7 +32,6 @@
         <div class="span4">
         </div>
       </div>
-    </div>
 
 <?php 
   include "footer.php"
