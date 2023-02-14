@@ -7,8 +7,8 @@
 ?>
 
 
-      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-      <script type="text/javascript">
+      <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+      <script>
         $(function() {
           if (location.hash) {
             $('a[href=' + location.hash +']').tab('show');
@@ -16,19 +16,14 @@
           $('a[href=#getting_here]').on('shown',function(){
           });
         });
+
+        function reload(id) {
+          var buggyid = document.getElementById(id);
+          buggyid.src = buggyid.src;
+        }
+
       </script>
 
-      <style type="text/css">
-        #map
-        {
-          height : 250px;
-        }
-
-        #map img {
-          max-width: none;
-        }
-      </style>
-    
       <header class="page-header">
         <h1>Course Information</h1>
       </header>            
@@ -38,7 +33,7 @@
             <ul id="infotabs" class="nav nav-tabs span12">
               <li class="active"><a href="#registration" data-toggle="tab">Registration</a></li>
               <li><a href="#payment" data-toggle="tab">Payment</a></li>
-              <li><a href="#getting_here" data-toggle="tab">Getting to St. Mary's</a></li>
+              <li><a href="#getting_here" data-toggle="tab" onclick="reload('map')">Getting to St. Mary's</a></li>
               <li><a href="#accomodation" data-toggle="tab">Accommodation</a></li>
               <li><a href="#visas" data-toggle="tab">Visas</a></li>
               <li><a href="#cancellations" data-toggle="tab">Cancellations</a></li>
@@ -49,7 +44,7 @@
 <?php if (!$applications_open) { ?>
                 <p>The <?= substr($start_date, 0, 4) ?> course is now fully subscribed, and applications are closed. </p>
 <?php } else { ?>
-                <p>Early booking is strongly advised</strong>. All applications will be acknowledged. Provisional places will only be confirmed when full fee payment has been received. Please submit all applications using the <a href="http://www.infectiousdiseasemodels.org/book/">online application form</a>.</p>
+                <p><strong>Early booking is strongly advised</strong>. All applications will be acknowledged. Provisional places will only be confirmed when full fee payment has been received. Please submit all applications using the <a href="http://www.infectiousdiseasemodels.org/book/">online application form</a>.</p>
 <?php } ?>
 
               </div>
@@ -73,7 +68,7 @@
               <div id="getting_here" class="tab-pane">
                 <h2>Getting to St. Mary's</h2>
                 <div class="row-fluid">
-                  <div class="span8">
+                  <div class="span7">
       
                     <h3>By Air</h3>
                     <p><strong>Heathrow</strong> - St. Mary's is situated close to Paddington Station which is in easy reach of Heathrow Airport via the Heathrow Express or Elizabeth line.  </p>
@@ -86,8 +81,8 @@
                     <h3>By Car</h3>
                     <a href="http://maps.google.co.uk/maps?f=q&hl=en&geocode=&q=w2+1pg&sll=53.800651,-4.064941&sspn=25.410451,64.423828&ie=UTF8&ll=51.517763,-0.173163&spn=0.006336,0.015728&z=17&g=w2+1pg&iwloc=addr">Please click here for journey planning routes.</a>
                   </div>
-                  <div class="span4">
-                    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.17668247222900393,51.51568327053656,-0.16966581344604495,51.51919166711883&amp;layer=mapnik&amp;marker=51.51743750260857,-0.17317414283752441" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=51.51744&amp;mlon=-0.17317#map=18/51.51744/-0.17317">View Larger Map</a></small>
+                  <div class="span5">
+                    <iframe id="map" style="border: 1px solid black; margin: 0px 0px 0px 0px; overflow:hidden;" width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.17644107341766357%2C51.51592028776117%2C-0.16936004161834717%2C51.518958004956936&amp;layer=mapnik&amp;marker=51.51743750260857,-0.17317414283752441"></iframe><br><small><a href="https://www.openstreetmap.org/?mlat=51.51744&amp;mlon=-0.17317#map=18/51.51744/-0.17317">View Larger Map</a></small>
                   </div>
                 </div>
               </div>

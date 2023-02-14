@@ -8,13 +8,17 @@
   $datefrom = "";
   if (isset($_POST['datefrom'])) {
     $datefrom = DateTime::createFromFormat("Y-m-d", $_POST['datefrom']);
-    echo "<script language='text/javascript'>document.fdate.datefrom.value = '".$_POST['datefrom']."';</script>";
+    echo "<script>document.fdate.datefrom.value = '".$_POST['datefrom']."';</script>";
   }
 
   if (isset($_POST['dateto'])) {
     $dateto = DateTime::createFromFormat("Y-m-d", $_POST['dateto']);
-    echo "<script language='text/javascript'>document.fdate.dateto.value = '".$_POST['dateto']."';</script>";
+    echo "<script>document.fdate.dateto.value = '".$_POST['dateto']."';</script>";
   }
+
+  if (!isset($_POST['datefrom'])) $_POST['datefrom'] = "";
+  if (!isset($_POST['dateto'])) $_POST['dateto'] = "";
+
 
   function get_data() {
     global $db_info, $db_host, $datefrom, $dateto;
@@ -37,7 +41,7 @@
 
       if ($ok) {
         $dt2 = $dt->format("Y-m-d");
-        echo "        <tr><td><input type='checkbox' id='cb_".$row['id']."' name='cb_".$row['id']."' /></td>";
+        echo "        <tr><td><input type='checkbox' id='cb_".$row['id']."' name='cb_".$row['id']."'></td>";
         echo "<td>".$row['id']."</td>";
         echo "<td>".$row['title']."</td><td>".$row['firstname']."</td>";
         echo "<td>".$row['surname']."</td>";
@@ -55,16 +59,16 @@
 </header>
 
 <form action="index.php" method="post" id="fdate" name="fdate" class="form-horizontal">
-  <table class="text-align:center" cellpadding="20"><tr>
+  <table class="text-align:center" style="padding: 20px"><tr>
     <td>Between</td>
-    <td><input class="input-medium" type="date" name="datefrom" id="datefrom" value="<?= $_POST['datefrom'] ?>"/></td>
+    <td><input class="input-medium" type="date" name="datefrom" id="datefrom" value="<?= $_POST['datefrom'] ?>"></td>
     <td>and</td>
-    <td><input class="input-medium" type="date" name="dateto" id="dateto" value="<?= $_POST['dateto'] ?>"/></td>
-    <td><button type="submit" class="btn btn-primary" type="button">Filter</button></td>
+    <td><input class="input-medium" type="date" name="dateto" id="dateto" value="<?= $_POST['dateto'] ?>"></td>
+    <td><button type="submit" class="btn btn-primary">Filter</button></td>
   </tr></table>
 </form>
 
-<script type="text/javascript" language="javascript">
+<script>
   function checkAll(all) {
     var cbs = document.getElementsByTagName('input');
     for (var i=0; i<cbs.length; i++) {
@@ -114,14 +118,14 @@
 <div class="row-fluid">
   <div class="span12">
     <form action="index.php" method="post" id="fentries" name="fentries">
-      <input type="hidden" name="command" value="download" />
+      <input type="hidden" name="command" value="download" >
       <table class="table table-striped table-hover table-bordered">
-        <tr><th><input onclick="javascript:checkAll(this)" type="checkbox" name="all" id="all"/>  All </th><th>id</th><th>Title</th><th>First name </th><th>Surname</th><th>CV</th><th>Covering Letter </th><th>Date</th></tr>
+        <tr><th><input onclick="javascript:checkAll(this)" type="checkbox" name="all" id="all">  All </th><th>id</th><th>Title</th><th>First name </th><th>Surname</th><th>CV</th><th>Covering Letter </th><th>Date</th></tr>
         <?php get_data(); ?>
       </table>
-      <button onclick="subm('cvs')" type="button" class="btn btn-success" type="button">Download Selected CVs and Covering Letters</button>
-      <button onclick="subm('meta')" type="button" class="btn btn-info" type="button">Download CSV of Selected Info</button>
-      <button onclick="subm('delete')" type="button" class="btn btn-danger" type="button">Deleted Selected Entries</button>
+      <button onclick="subm('cvs')" type="button" class="btn btn-success">Download Selected CVs and Covering Letters</button>
+      <button onclick="subm('meta')" type="button" class="btn btn-info">Download CSV of Selected Info</button>
+      <button onclick="subm('delete')" type="button" class="btn btn-danger">Deleted Selected Entries</button>
     </form>
   </div>
 </div>

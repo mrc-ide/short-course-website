@@ -5,7 +5,7 @@
   include "header.php";
 
 ?>
-      <script type="text/javascript" language="javascript">
+      <script>
         function validateEmail(mail)  {
           return (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail));
         }
@@ -56,15 +56,15 @@
 
       <div class="row-fluid">
         <div class="span 12">
-          <p>To apply please fill out the form below and upload a copy of your CV and a covering letter briefly outlining your background and explaining your reasons for wanting to attend the course. Please see our <a href="privacy.php">Privacy Policy</a> about how we use the data you submit. When your application has been processed you will be notified if you have been successful or not. Last year's course was oversubscribed. Places on the course are limited, early booking is strongly advised.<br/>&nbsp;<br/>
+          <p>To apply please fill out the form below and upload a copy of your CV and a covering letter briefly outlining your background and explaining your reasons for wanting to attend the course. Please see our <a href="privacy.php">Privacy Policy</a> about how we use the data you submit. When your application has been processed you will be notified if you have been successful or not. Last year's course was oversubscribed. Places on the course are limited, early booking is strongly advised.<br>&nbsp;<br>
 
-          <strong>If you are applying for the LMIC scholarship, please clearly state this in the first line of your cover letter and specify the country in which you are based.</strong><br/>&nbsp;<br/>
+          <strong>If you are applying for the LMIC scholarship, please clearly state this in the first line of your cover letter and specify the country in which you are based.</strong><br>&nbsp;<br>
 
           </p>
 
           <form action="submit.php" class="form-horizontal" method="POST" name="uploader" ENCTYPE="multipart/form-data">
-            <input name="date" type="hidden" value="<?= date("d/m/Y") ?>" />
-            <input name="scholarship" type="hidden" value="" />
+            <input name="date" type="hidden" value="<?= date("d/m/Y") ?>">
+            <input name="scholarship" type="hidden" value="">
             <div class="row-fluid">
               <label class="span2" for="title">Title</label>
 
@@ -84,50 +84,50 @@
 
             <div class="row-fluid">
               <label class="span2" for="firstname">FirstName</label>
-              <div class="span4"><input type="text" name="firstname" id="firstname" class="required" /></div>
+              <div class="span4"><input type="text" name="firstname" id="firstname" class="required"></div>
               <div id="firstname_err" class="error_message span6"></div>
             </div>
 
             <div class="row-fluid">
               <label class="span2" for="surname">Surname</label>
-              <div class="span4"><input type="text" name="surname" id="surname" class="required" /></div>
+              <div class="span4"><input type="text" name="surname" id="surname" class="required"></div>
               <div id="surname_err" class="error_message span6"></div>
             </div>
 
             <div class="row-fluid">
               <label class="span2" for="email">Email Address</label>
-              <div class="span4"><input type="email" name="email" id="email" class="required" /></div>
+              <div class="span4"><input type="email" name="email" id="email" class="required"></div>
               <div id="email_err" class="error_message span6"></div>
             </div>
 
             <div class="row-fluid">
               <label class="span2" for="email2">Confirm Email Address</label>
-              <div class="span4"><input type="email" name="email2" id="email2" class="required" /></div>
+              <div class="span4"><input type="email" name="email2" id="email2" class="required"></div>
               <div id="email2_err" class="error_message span6"></div>
             </div>
-
+            <hr>
             <div class="row-fluid">
-              <label class="span2" for="file1">Attach CV</label>
-              <div class="span4"><input type="file" size="50" name="FILE1" id="FILE1" class="required" />
-                <span class="help-block">Please use your surname in the name of the file.</span>
+              <label class="span2" for="FILE1">Attach CV</label>
+              <div class="span4"><input type="file" size="50" name="FILE1" id="FILE1" class="required">
+                <span class="help-block">Please include your surname in the name of the file.</span>
               </div>
               <div id="FILE1_err" class="error_message span6"></div>
             </div>
-
+            <hr>
             <div class="row-fluid">
-              <label class="span2" for="file1">Attach Cover Letter</label>
-              <div class="span4"><input type="file" size="50" name="FILE2" id="FILE2" class="required" />
-                <span class="help-block">Please use your surname in the name of the file.</span>
+              <label class="span2" for="FILE2">Attach Cover Letter</label>
+              <div class="span4"><input type="file" size="50" name="FILE2" id="FILE2" class="required">
+                <span class="help-block">Please include your surname in the name of the file.</span>
               </div>
               <div id="FILE2_err" class="error_message span6"></div>
-              <INPUT TYPE=hidden NAME="saveto" value="disk" checked />
+              <input type="hidden" name="saveto" value="disk">
             </div>
-
+            <hr>
             <div class="row-fluid">
               <div class="span4 offset2">
                 <p><strong>All fields are required</strong></p>
 
-                <input type="submit"  onClick="return validate();" id="SubmitButton" value="Submit Application"/>
+                <input type="submit"  onClick="return validate();" id="SubmitButton" value="Submit Application">
               </div>
             </div>
 

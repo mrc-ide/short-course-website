@@ -9,9 +9,7 @@
 
 ?>
 
-      <!-- Kick off the carousel //-->
-
-      <script type="text/javascript">
+      <script>
         function load_presenters() {
           $.ajax({
             url:'data/presenters.json', 
@@ -32,7 +30,7 @@
                 var div = '<div id="' + pres.identifier +'"  class="tab-pane" >'
                   + '<h2>' + pres.title + ' ' + pres.forenames.join(' ') + ' ' + pres.surname + ' ' + pres.postnominals.join(' ') + '</h2>'
                   + '<div class="row-fluid">'
-                  + '<div class="span3"><img src="' + (pres.photo ? pres.photo : 'holder.js/150x200') + '" class="img-polaroid pull-left headshot" /></div>' 
+                  + '<div class="span3"><img alt="" src="' + (pres.photo ? pres.photo : 'holder.js/150x200') + '" class="img-polaroid pull-left headshot"></div>' 
                   + '<div class="span9"><ul class="unstyled positions"><li>' + pres.positions.join('</li><li>') + '</li></ul>'
                   + '<p>'+ pres.description +'</p>'
                   + '<a href="'+pres.pubs+'" class="btn btn-primary">View ' + pres.title + ' ' + pres.surname + '\'s Publications</a></div>'
@@ -113,11 +111,11 @@
                       <li>Mathematicians who wish to learn key biological concepts and how they are translated into modelling. </li>
                     </ul>
                   </div>
-                  <img class="span4 img-polaroid" src="images/who.jpg" />
+                  <img alt="" class="span4 img-polaroid" src="images/who.jpg">
                 </div>
 
                 <div class="row-fluid">
-                  <img class="span4 img-polaroid" src="images/who2.jpg" />
+                  <img alt="" class="span4 img-polaroid" src="images/who2.jpg">
                   <div class="span8">
                     <h2>What is the required level of mathematical ability?</h2>
                     <p>Course participants require only a <strong>very basic mathematical ability</strong> (high school level is more than sufficient), as the fundamental principles of infectious-disease transmission behaviour are simple to grasp. Since most participants do not use maths regularly, if at all, we introduce concepts gently, step-by-step, and we offer the reassurance of an optional maths refresher on the Sunday before the course.</p>
@@ -135,7 +133,7 @@
                     <p>In the first week, the basic conceptual, mathematical, statistical and simple computational tools needed for a rigorous approach to infectious disease epidemiology are introduced. Keynote lectures and case studies covering a wide range of topics place the current use of mathematical modelling in context, illustrating how it contributes in a number of ways to epidemiological studies, policy-making and evaluation. </p>
                     <p>The focus of the second week is on extended, in-depth, hands-on, small-group projects, complemented by lectures addressing practical case studies.</p>
                   </div>
-                  <img class="span4 img-polaroid" src="images/content.jpg" alt="Professer Sir Roy Anderson delivers a lecture" />
+                  <img class="span4 img-polaroid" src="images/content.jpg" alt="Professer Sir Roy Anderson delivers a lecture">
                 </div>
                 <div class="row-fluid">
                   <div class="span12">
@@ -144,7 +142,7 @@
                 </div>
 
                 <div class="row-fluid">
-                <img class="img-polaroid span4" src="images/invited.jpg" alt="Invited speaker" />
+                <img class="img-polaroid span4" src="images/invited.jpg" alt="Invited speaker">
                   <div class="span8">
                 
                     <p>Each year, we also invite a speaker from outside the department. Past speakers have included Dr. Chris Dye (Director of Strategy in the Office of the Director General at the WHO), Prof. Harald Zur Hausen (2008 Nobel Prize in Medicine), Prof. Barry Marshall (2005 Nobel Prize in Medicine), Prof. Peter Piot (former Executive Director of UNAIDS), Dr Robert Newman (former Director of the Global Malaria Programme at the World Health Organization), Dame Anne Johnson (Chair of Population and Lifelong Health at UCL), and Prof. Charlotte Watts (Chief Scientific Advisor, UK Department for International Development).</p>
@@ -181,7 +179,7 @@
                   <p class="span8">The course offers numerous occasions to socialise with fellow participants and to get to know staff and students within our very friendly department. Delegates will get to enjoy a flight on the London Eye, offering spectacular views across London and its many famous landmarks, followed by a formal meal with members of the department. We will host a welcome reception following the first day of teaching, two buffet lunches during the course, as well as farewell drinks and a quiz on the final evening. The central London location of the Imperial College St Mary's Campus also provides an ideal opportunity to explore the city, we will be more than happy to recommend our favourite restaurants and activities!</p>
 
                   <div class="span4">
-                    <img src="images/LondonEye.jpg" class="span12 img-polaroid" />
+                    <img alt="London Eye" src="images/LondonEye.jpg" class="span12 img-polaroid">
                     <p class="alert alert-info">2019 delegates taking a flight on the London Eye</p>
                   </div>
                 </div>
@@ -202,9 +200,9 @@
                     <blockquote>Excellent and insightful approach to public health. Certainly all public health professionals need to understand the role of models</blockquote>
                     <blockquote>An excellent overview of the field of mathematical modelling of infectious diseases and how it can help in control of infections</blockquote>
                     <blockquote>Great people and experience</blockquote>
-                    <img class="img" src="images/comments2.jpg" />
+                    <img alt="" class="img" src="images/comments2.jpg">
                   </div>
-                  <img class="span4 img-polaroid" src="images/comments.jpg" />
+                  <img alt="" class="span4 img-polaroid" src="images/comments.jpg">
                 </div>
               </div>
             </div>

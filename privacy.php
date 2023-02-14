@@ -5,21 +5,21 @@
   include "header.php";
 
 ?>
-   &nbsp;<br/>&nbsp;<br/>
-   <p>
+   &nbsp;<br>&nbsp;<br>
+
    <h1>Privacy notice for www.infectiousdiseasemodels.org</h1>
 
-   In accordance with Data Protection Legislation and the Privacy Electronic Communications Regulations, this privacy notice will:<br/>&nbsp;<br/>
+   In accordance with Data Protection Legislation and the Privacy Electronic Communications Regulations, this privacy notice will:<br>&nbsp;<br>
 
     <ul>
       <li>inform you as to how we look after your personal data when you visit our websites;</li>
       <li>tell you about your privacy rights;</li>
       <li>tell you how the law protects you.</li>
-
+    </ul>
     This policy is based on the <a href="https://www.imperial.ac.uk/about-the-site/privacy/">Imperial College privacy policy</a>. 
 
   <h1>What do we collect?</h1>
-  If you apply for the course, we will ask you to provide:<br/>&nbsp;<br/>
+  If you apply for the course, we will ask you to provide:<br>&nbsp;<br>
   <ul>
     <li>Your name and contact details</li>
     <li>Your CV</li>
@@ -27,7 +27,7 @@
   </ul>
 
   <h1>How we use your personal data</h1>
-  We will only use your personal data when the law allows us to.<br/>&nbsp;<br/>
+  We will only use your personal data when the law allows us to.<br>&nbsp;<br>
   <ul>
     <li>We will need your name and contact details to commuinicate with you regarding your application and provide you with information necessary for participating in the course.</li>
     <li>We will use your CV and covering letter to help us understand your background and expertise, so we can engage with you most effectively during the course.</li>
@@ -69,10 +69,10 @@
 
    <h1>Links to other websites</h1>
 
-   The infectiousdisesemodels.org website contains links to other websites.
+   www.infectiousdisesemodels.org website contains links to other websites.
 
-   This privacy policy only applies to infectiousdisesemodels.org and doesn't cover other websites that we link to. These services, have their own terms and conditions and privacy policies. If you do go to another website from this one, read the privacy policy on that website to find out what it does with your information.
-</p>
+   This privacy policy only applies to www.infectiousdisesemodels.org and doesn't cover other websites that we link to. These services, have their own terms and conditions and privacy policies. If you do go to another website from this one, read the privacy policy on that website to find out what it does with your information.
+
 <?php 
   include "footer.php"
 ?>
