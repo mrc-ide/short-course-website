@@ -31,7 +31,7 @@
       <div class="row-fluid">
         <div class="span8">
           <p class="lead"><span style="color:#800000"><strong><u>IN-PERSON COURSE FOR 2023:</u></strong></span><span style="color:#800000"> We look forward to welcoming delegates in person in 2023, circumstances permitting. We will be monitoring developments in the COVID-19 pandemic closely and if a move to remote teaching is necessary will keep delegates informed regarding logistics and fees.
-          </strong></span></p>
+          </span></p>
 
           <hr>
           <p class="lead"> Taught by leading researchers who advise policy-makers internationally. Topics include HIV, TB, malaria, Ebola, COVID-19, health economics, vaccination programmes, stochastic models &amp; more.</p>
