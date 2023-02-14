@@ -8,7 +8,7 @@
 
       <!-- Kick off the carousel //-->
 
-      <script type="text/javascript">
+      <script>
         $(function() {
           $('.carousel').carousel({
               interval: 5000
@@ -16,7 +16,7 @@
         });
       </script>
 
-      <!-- Style for the front page big banner //--> 
+      <!-- Style for the front page big banner //-->
 
       <style>
         .hero {
@@ -90,7 +90,7 @@
 <?php
         for ($i = 1; $i <= 23; $i++) {
           echo "              <div class='item".($i == 1 ? " active" : "")."'>".
-               "<img src='images/carousel/".$i.".jpg' class='img-polaroid' /></div>\n";
+               "<img alt='' src='images/carousel/".$i.".jpg' class='img-polaroid'></div>\n";
         }
 ?>
             </div>
@@ -110,6 +110,6 @@
       </div>
     </div>
 
-<?php 
+<?php
   include "footer.php"
 ?>
