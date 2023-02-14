@@ -7,7 +7,7 @@
 ?>
     <h1>Accessibility</h1>
 
-    This statement applies to content published on <a href="infectiousdiseasemodels.org">infectiousdiseasemodels.org</a><br>&nbsp;<br>
+    This statement applies to content published on <a href="https://www.infectiousdiseasemodels.org">www.infectiousdiseasemodels.org</a><br>&nbsp;<br>
 
     We want as many people as possible to be able to use this website. For example, that means you should be able to:<br>&nbsp;<br>
 
