@@ -6,7 +6,7 @@
 
 ?>
    &nbsp;<br>&nbsp;<br>
-   <p>
+
    <h1>Privacy notice for www.infectiousdiseasemodels.org</h1>
 
    In accordance with Data Protection Legislation and the Privacy Electronic Communications Regulations, this privacy notice will:<br>&nbsp;<br>
@@ -69,10 +69,10 @@
 
    <h1>Links to other websites</h1>
 
-   The infectiousdisesemodels.org website contains links to other websites.
+   www.infectiousdisesemodels.org website contains links to other websites.
 
-   This privacy policy only applies to infectiousdisesemodels.org and doesn't cover other websites that we link to. These services, have their own terms and conditions and privacy policies. If you do go to another website from this one, read the privacy policy on that website to find out what it does with your information.
-</p>
+   This privacy policy only applies to www.infectiousdisesemodels.org and doesn't cover other websites that we link to. These services, have their own terms and conditions and privacy policies. If you do go to another website from this one, read the privacy policy on that website to find out what it does with your information.
+
 <?php 
   include "footer.php"
 ?>
