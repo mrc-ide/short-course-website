@@ -57,14 +57,14 @@
 <form action="index.php" method="post" id="fdate" name="fdate" class="form-horizontal">
   <table class="text-align:center" style="padding: 20px"><tr>
     <td>Between</td>
-    <td><input class="input-medium" type="date" name="datefrom" id="datefrom" value="<?= $_POST['datefrom'] ?>"></td>
+    <td><input class="input-medium" type="date" name="datefrom" id="datefrom" value="<?= $datefrom ?>"></td>
     <td>and</td>
-    <td><input class="input-medium" type="date" name="dateto" id="dateto" value="<?= $_POST['dateto'] ?>"></td>
-    <td><button type="submit" class="btn btn-primary" type="button">Filter</button></td>
+    <td><input class="input-medium" type="date" name="dateto" id="dateto" value="<?= $dateto ?>"></td>
+    <td><button type="submit" class="btn btn-primary">Filter</button></td>
   </tr></table>
 </form>
 
-<script type="text/javascript" language="javascript">
+<script>
   function checkAll(all) {
     var cbs = document.getElementsByTagName('input');
     for (var i=0; i<cbs.length; i++) {
@@ -119,9 +119,9 @@
         <tr><th><input onclick="javascript:checkAll(this)" type="checkbox" name="all" id="all">  All </th><th>id</th><th>Title</th><th>First name </th><th>Surname</th><th>CV</th><th>Covering Letter </th><th>Date</th></tr>
         <?php get_data(); ?>
       </table>
-      <button onclick="subm('cvs')" type="button" class="btn btn-success" type="button">Download Selected CVs and Covering Letters</button>
-      <button onclick="subm('meta')" type="button" class="btn btn-info" type="button">Download CSV of Selected Info</button>
-      <button onclick="subm('delete')" type="button" class="btn btn-danger" type="button">Deleted Selected Entries</button>
+      <button onclick="subm('cvs')" type="button" class="btn btn-success">Download Selected CVs and Covering Letters</button>
+      <button onclick="subm('meta')" type="button" class="btn btn-info">Download CSV of Selected Info</button>
+      <button onclick="subm('delete')" type="button" class="btn btn-danger">Deleted Selected Entries</button>
     </form>
   </div>
 </div>
