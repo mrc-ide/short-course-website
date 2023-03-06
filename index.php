@@ -86,7 +86,7 @@
           <li><strong>Free Maths and Excel Refresher Day:<br></strong><?= friendly_date($maths_date) ?></li>
           <li>Cost: <?= cost($early_cost) ?> before <?= friendly_date($early_booking_date) ?>, <?= cost($standard_cost) ?> after. </li>
           <li><strong>Applications for <?= year_span($start_date, $end_date) ?> are now <?= ($applications_open) ? "open" : "closed" ?></strong></li>
-          <li><a href="information#payment">A limited number of full scholarships</a> (covering course fees, flights and accommodation) are available for candidates from LMICs. The deadline for scholarship applications is <?= friendly_date($scholarship_date) ?>.</li>
+          <li><strong>A limited number of full scholarships</strong> (covering course fees, flights and accommodation) are available for candidates from LMICs. The deadline for scholarship applications is <?= friendly_date($scholarship_date) ?>.</li>
         </ul>
         <p>
           <strong>Contact: <a href="https://www.imperial.ac.uk/people/l.whittles">Dr Lilith Whittles</a> or <a href="https://www.imperial.ac.uk/people/c.mccormack14">Dr Clare McCormack</a></strong><br>
