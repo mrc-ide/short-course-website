@@ -44,7 +44,7 @@
 <?php if (!$applications_open) { ?>
                 <p>The <?= substr($start_date, 0, 4) ?> course is now fully subscribed, and applications are closed. </p>
 <?php } else { ?>
-                <p><strong>Early booking is strongly advised</strong>. All applications will be acknowledged. Provisional places will only be confirmed when full fee payment has been received. Please submit all applications using the <a href="http://www.infectiousdiseasemodels.org/book/">online application form</a>.</p>
+                <p><strong>Early booking is strongly advised</strong>. All applications will be acknowledged. Provisional places will only be confirmed when full fee payment has been received. Please submit all applications using the <a href="https://www.infectiousdiseasemodels.org/book/">online application form</a>.</p>
 <?php } ?>
 
               </div>
