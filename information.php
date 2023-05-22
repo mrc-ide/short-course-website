@@ -62,7 +62,7 @@
 
             <p class="alert alert-info"><b>Please Note: </b> The deadline to apply for the LMIC Scholarship has now passed</p>
 
-                <p>We offer a limited number of scholarships for participants from LMICs; scholarship applications must be received by <?=friendly_date($scholarship_date)?>.</p>
+               <!-- <p>We offer a limited number of scholarships for participants from LMICs; scholarship applications must be received by <?=friendly_date($scholarship_date)?>.</p> -->
 
               </div>
               <div id="getting_here" class="tab-pane">
