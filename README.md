@@ -30,7 +30,7 @@ The website is currently deployed on a Windows server. This is the working confi
 
 # Editing and Publishing
 
-* Make changes on the `preview` branch. When you push to that branch, a webhook in this repo will cause those changes to appear on the preview website.
+* Make changes on the `preview` branch. When you push to that branch, a webhook in this repo will cause those changes to appear on the preview website: https://mrcdata.dide.ic.ac.uk/shortcourse-preview
 
 * When you're happy, make a PR from the latest preview, and merge it, and the live site will be updated.
 
