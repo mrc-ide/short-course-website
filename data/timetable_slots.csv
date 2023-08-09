@@ -1,79 +1,87 @@
 day,slot,class,name,presenter
-1,1,practical,"Optional Excel refresher",""
-1,2,break,"",""
-1,3,practical,"Optional Maths refresher",""
-2,1,qa,"Introductions","N. Aminarinpathy, L. Whittles, C. McCormack"
-2,2,lecture,"Intro to designing infectious-disease models (1)","P. White"
-2,3,break,"",""
-2,4,lecture,"Intro to designing infectious-disease models (2)","P. White"
-2,5,lunch,"",""
-2,6,practical,"Designing a model for TB (1)","P. White, I. Blake"
-2,7,break,"",""
-2,8,practical,"Designing a model for TB (2)","P. White, I. Blake"
-3,1,qa,Optional: Q/A for previous day (1),""
-3,2,practical,"Introducing odin interface as a tool for modelling (1)","L. Okell, L. Whittles"
-3,3,break,"",""
-3,4,practical,"Introducing odin interface as a tool for modelling (2)","L. Okell, L. Whittles"
-3,5,break,"",""
-3,6,practical,"Dynamics of simple models &amp; R0 (1)","L. Okell, L. Whittles"
-3,7,lunch,"",""
-3,8,practical,"Dynamics of simple models &amp; R0 (2)","L. Okell, L. Whittles"
-3,9,break,"",""
-3,10,lecture,"Estimating parameters from data","C. Donelly"
-3,11,qa,"Optional: Q/A for previous day (2)",""
-4,1,qa,"Optional: Q/A for previous day (1)",""
-4,2,lecture,"Methods to estimate R","A. Cori"
-4,3,break,"",""
-4,4,practical,"Estimating key parameters from an outbreak of influenza (1)","I. Dorigatti, P. Walker"
-4,5,lunch,"",""
-4,6,practical,"Estimating key parameters from an outbreak of influenza (2)","I. Dorigatti, P. Walker"
-4,7,break,"",""
-4,8,practical,"Estimating key parameters from an outbreak of influenza (3)","I. Dorigatti, P. Walker"
-4,9,break,"",""
-4,10,qa,"Optional: Q/A for previous day (2)",""
-5,1,qa,"Optional: Q/A for previous day (1)",""
-5,2,lecture,"Introduction to stochasticity","P. Winskill, J. Truscott"
-5,3,break,"",""
-5,4,practical,"Stochasticity practical (1)","J. Truscott, P. Winskill"
-5,5,lunch,"",""
-5,6,practical,"Stochasticity practical (2)","J. Truscott, P. Winskill"
-5,7,break,"",""
-5,8,qa,"Optional: Q/A for previous day (2)",""
-6,1,qa,"Optional: Q/A for previous day (1)",""
-6,2,lecture,"Vaccination modelling","N. Grassly"
-6,3,break,"",""
-6,4,keynote,"Vector-borne diseases: mathematical models","M-G Basanez"
-6,5,lunch,"",""
-6,6,keynote,"Outbreak analysis and modelling","N. Ferguson"
-6,7,break,"",""
-6,8,lecture,"Malaria","A. Ghani"
-6,9,break,"",""
-6,9,qa,"Optional: Q/A for previous day (2)",""
-9,1,qa,"Optional: Q/A for previous day (1)",""
-9,2,practical,"Project - Ebola/HIV/Vector-borne diseases (1)",""
-9,3,break,"",""
-9,4,practical,"Project - Ebola/HIV/Vector-borne diseases (2)",""
-9,5,lunch,"",""
-9,6,practical,"Project - Ebola/HIV/Vector-borne diseases (3)",""
-9,7,break,"",""
-9,8,qa,"Optional: Q/A for previous day (2)",""
-10,1,qa,"Optional: Q/A for previous day (1)",""
-10,2,practical,"Project - Ebola/HIV/Vector-borne diseases (4)",""
-10,3,break,"",""
-10,4,practical,"Project - Ebola/HIV/Vector-borne diseases (5)",""
-10,5,lunch,"",""
-10,6,practical,"Project - Ebola/HIV/Vector-borne diseases (6)",""
-10,7,break,"",""
-10,8,practical,"Project - Ebola/HIV/Vector-borne diseases (7)",""
-10,9,qa,"Optional: Q/A for previous day (2)",""
-11,1,qa,"Optional: Q/A for previous day (1)",""
-11,2,keynote,"Covid-19","N. Ferguson"
-11,3,break,"",""
-11,4,keynote,"Using models to evaluate public health interventions","M. Pickles"
-11,5,break,"",""
-11,6,keynote,"The impact of vaccination on the epidemiology of infectious diseases","R. Anderson"
-11,7,lunch,"",""
-11,8,keynote,"Monitoring mass distribution control programmes","T. Churcher"
-11,9,break,"",""
-11,10,keynote,"External guest speaker","To be confirmed"
-11,11,qa,"Closing words and feedback","N. Aminarinpathy, N. Imai, A. Hamlet"
+1,1,practical,Optional Excel refresher,S. Leuba
+1,2,lunch,Organised lunch,
+1,3,practical,Optional Maths refresher,T. Rawson
+2,1,qa,Introductions,"N. Aminarinpathy, L. Whittles, C. McCormack"
+2,2,keynote,Infectious diseases and mathematical models,N. Aminarinpathy
+2,3,break,,
+2,4,lecture,Intro to designing infectious-disease models (1),P. White
+2,5,lunch,Organised lunch,
+2,6,lecture,Intro to designing infectious-disease models (2),P. White
+2,7,break,,
+2,8,practical,Designing a model for TB,"P. White, I. Blake"
+2,9,break,Social: meet the department - Pearl Liang,
+3,1,lecture,Overview of models / Intro to R0,M. Pons-Salort
+3,2,break,,
+3,3,keynote,Outbreak analysis and modelling,N. Ferguson
+3,4,practical,Introducing odin interface as a tool for modelling (1),"C McCormack, C. Whittaker"
+3,5,lunch,,
+3,6,practical,Introducing odin interface as a tool for modelling (2),"C McCormack, C. Whittaker"
+3,7,break,,
+3,8,practical,Introducing odin interface as a tool for modelling (2),"C McCormack, C. Whittaker"
+3,9,practical,Calibration auction,N. Aminarinpathy
+4,1,lecture,Compartmental models with heterogeneous mixing,L. Whittles
+4,2,break,,
+4,3,lecture,Vaccination modelling,I. Blake
+4,4,keynote,HIV,J. Eaton
+4,5,lunch,,
+4,6,practical,Modelling vaccination,"L. Whittles, M Pons-Salort"
+4,7,break,,
+4,8,practical,Modelling vaccination,"L. Whittles, M Pons-Salort"
+5,1,lecture,Methods to estimate R (1),A. Cori
+5,2,break,,
+5,3,lecture,Methods to estimate R (2),A. Cori
+5,4,keynote,Polio,N. Grassly
+5,5,lunch,,
+5,6,practical,Estimating key parameters from an outbreak of SARS-Cov-2 and influenza (1),"K. Parag, R. Verity"
+5,7,break,,
+5,8,practical,Estimating key parameters from an outbreak of SARS-Cov-2 and influenza (1),"K. Parag, R. Verity"
+6,1,lecture,Seasonal infectious disease epidemiology,N. Grassly
+6,2,break,,
+6,3,lecture,Introduction to stochasticity,P. Winskill
+6,4,practical,Stochasticity practical (1),"P. Winskill, J. Challenger"
+6,5,lunch,,
+6,6,practical,Stochasticity practical (2),"P. Winskill, J. Challenger"
+6,7,break,,
+6,4,practical,Stochasticity practical (3),"P. Winskill, J. Challenger"
+6,9,break,Trip to London Eye / Course dinner,
+9,1,lecture,Vector-borne diseases: microparasites,T. Churcher
+9,2,break,,
+9,3,keynote,Malaria,A. Ghani
+9,4,lecture,Vector-borne diseases: macroparasites,MG. Basanez
+9,5,lunch,,
+9,6,practical,Malaria,"A. Ghani, L. Okell"
+9,7,break,,
+9,8,practical,Malaria,"A. Ghani, L. Okell"
+10,1,practical,Project - Ebola/HIV/Malaria (1),"I. Dorigatti, P. Walker, R. Silhol"
+10,2,break,,
+10,3,practical,Project - Ebola/HIV/Malaria (2),"I. Dorigatti, P. Walker, R. Silhol"
+10,4,lunch,,
+10,5,practical,Project - Ebola/HIV/Malaria (3),"I. Dorigatti, P. Walker, R. Silhol"
+10,6,break,,
+10,7,practical,Project - Ebola/HIV/Malaria (4),"I. Dorigatti, P. Walker, R. Silhol"
+11,1,practical,Project - Ebola/HIV/Malaria (5),"I. Dorigatti, P. Walker, R. Silhol"
+11,2,break,,
+11,3,practical,Project - Ebola/HIV/Malaria (6),"I. Dorigatti, P. Walker, R. Silhol"
+11,4,lunch,,
+11,5,practical,Project - Ebola/HIV/Malaria (7),"I. Dorigatti, P. Walker, R. Silhol"
+11,6,break,,
+11,7,practical,Project - Ebola/HIV/Malaria (8),"I. Dorigatti, P. Walker, R. Silhol"
+11,8,break,Social trivia quiz - Fountain's Abbey,
+12,1,practical,Project - Ebola/HIV/Malaria (9),"I. Dorigatti, P. Walker, R. Silhol"
+12,2,break,,
+12,3,practical,Project - Ebola/HIV/Malaria (10),"I. Dorigatti, P. Walker, R. Silhol"
+12,4,lunch,,
+12,5,lecture,Principles of health economics,K. Hauck
+12,6,break,,
+12,7,keynote,TB,N. Aminarinpathy
+12,8,break,,
+12,9,lecture,Test-and-treat  for  HIV  control: A  peer  review  exercise,N. Aminarinpathy
+13,1,keynote,Modelling the COVID-19 pandemic,N. Ferguson
+13,2,break,,
+13,3,practical,interactive session,"N. Aminarinpathy, L. Whittles, C. McCormack"
+13,4,keynote,Guest lecture,TBC
+13,5,lunch,Organised lunch,
+13,6,qa,Interface between modelling and policy,"N. Ferguson, A. Ghani, T. Hallet, N. Pathy"
+13,7,qa,Closing words and feedback,"N. Aminarinpathy, L. Whittles, C. McCormack"
+13,8,break,Pub,
