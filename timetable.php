@@ -5,7 +5,9 @@
     $header = array_shift($rows);
     $csv = array();
     foreach ($rows as $row) {
-      $csv[] = array_combine($header, $row);
+      if (count($row) == count($header)) {
+        $csv[] = array_combine($header, $row);
+      }
     }
     return $csv;
   }
