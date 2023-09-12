@@ -3,6 +3,7 @@
   include "../data/metadata.php";
   include "../scripts/utils.php";
   include "../header.php";
+  include "../db_csv.php";
 
   $dateto = "";
   $datefrom = "";
@@ -22,14 +23,9 @@
 
   function get_data() {
     global $db_info, $db_host, $datefrom, $dateto;
-    $con = sqlsrv_connect($db_host, $db_info);
-    if (!$con) {
-     echo "Database connection could not be established.<br />";
-     die( print_r( sqlsrv_errors(), true));
-    }
+    $res = get_application_info();
 
-    $res = sqlsrv_query($con, "SELECT * FROM dbo.IDM_applications ORDER BY id DESC");
-    while ($row = sqlsrv_fetch_array($res, SQLSRV_FETCH_ASSOC)) {
+    foreach ($res as $row) {
       $dt = DateTime::createFromFormat("d/m/Y", $row['date']);
       $ok = true;
       if ($datefrom != "") {
@@ -50,7 +46,6 @@
         echo "<td>".$dt2."</td></tr>\n";
       }
     }
-    sqlsrv_free_stmt($res);
   }
 ?>
 

@@ -2,17 +2,12 @@
 
 This repo contains the website for the short-course,
 [www.infectiousdiseasemodels.org](https://www.infectiousdiseasemodels.org/),
-refactored in January 2023 to make maintenance a bit easier.
+refactored in January 2023 to make maintenance a bit easier,
+and with MS-SQL dependencies removed in August 2023.
 
 # Server Configuration
 
-The website is currently deployed on a Windows server. This is the working configuration:-
-
-* PHP 7.4
-* The current IC database seems to work only with ODBC Driver 11.
-  This may be already installed, but if not, see [here](https://learn.microsoft.com/en-us/sql/connect/odbc/windows/release-notes-odbc-sql-server-windows?view=sql-server-ver16#previous-releases)
-* Version 5.8 of the MS-SQL driver for PHP 7.4 - the thread-safe 64-bit version [here](https://pecl.php.net/package/sqlsrv/5.8.1/windows)
-* Save `php_sqlsrv_74_ts_x64.dll` in `php/ext` folder, and insert `extension php_sqlsrv_74_ts_x64.dll` in the extensions section of `php.ini`
+The website is currently deployed on a Windows server, and runs on vanilla PHP with no significant dependencies. 
 
 # Deployment
 
