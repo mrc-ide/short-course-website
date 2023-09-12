@@ -2,19 +2,13 @@
   include("header.php");
   include("data/metadata.php");
   include("data/db_metadata.php");
+  include("db_csv.php");
   include("scripts/utils.php");
 ?>
  	<div class="row-fluid">
 	  	<div class="span8">
        <div class="page-header">
 <?php
-
-  function get_db_id($con) {
-    $res = sqlsrv_query($con, "SELECT max(id) as county FROM dbo.IDM_applications");
-    $row = sqlsrv_fetch_array($res, SQLSRV_FETCH_ASSOC);
-    sqlsrv_free_stmt($res);
-    return 1 + intval($row['county']);
-  }
 
   $ok = true;
   if (!isset($_POST['title'])) $ok = false;
@@ -36,8 +30,7 @@
   $scholarship = "0";
 
   if ($ok) {
-    $con = sqlsrv_connect($db_host, $db_info);
-    $id = get_db_id($con);
+    $id = get_next_id();
     $cvname = $id."-".$cvname;
     $lettername = $id."-".$lettername;
 
@@ -53,11 +46,7 @@
       throw new Exception('Your CV could not be uploaded. The file might be too big, please try again with a smaller file.');
     }
 
-    $stmt = sqlsrv_prepare($con, 'INSERT INTO IDM_applications (id, title, firstname, surname, email, FILE1, FILE2, date, scholarship) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)',
-      array($id, $title, $firstname, $surname, $email, $cvname, $lettername, $date, $scholarship));
-    if (!sqlsrv_execute($stmt)) {
-      die(print_r(sqlsrv_errors(), true));
-    }
+    add_application($id, $title, $firstname, $surname, $email, $cvname, $lettername, $date, $scholarship);
 ?>
       &nbsp;<br/>&nbsp;
       <h1>Application Submitted</h1>           

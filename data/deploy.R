@@ -7,10 +7,6 @@ create_db_metadata <- function(path = "./db_metadata.php") {
   script <- paste(
     '<?php ',
     '  // Created by deploy.R ', '',
-    sprintf('  $db_host = "%s";', data$db_host),
-    sprintf('  $db_info = array("Database" => "%s",', data$db_name),
-    sprintf('                   "UID"      => "%s",', data$db_user),
-    sprintf('                   "PWD"      => "%s");', data$db_password),
     '',
     sprintf('  $upload_path = "%s";', data$upload_path), '',
     sprintf('  $github_secret = "%s";', data$github_secret), '',
