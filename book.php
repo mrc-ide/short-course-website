@@ -49,7 +49,22 @@
         }
 
       </script>
-      
+<?php
+      if (!$applications_open) {
+?>
+    <header class="page-header">
+        <h1>Applications are now closed.</h1>
+    </header>
+
+     <div class="row-fluid">
+        <div class="span 12">
+          <p>Applications for the <?= substr($start_date, 0, 4) ?> course are currently closed.<br>&nbsp;<br>
+        </div>
+      </div>
+<?php
+
+      } else {
+?>
       <header class="page-header">
         <h1>Apply for a place</h1>
       </header>
@@ -138,5 +153,7 @@
       </div>
 
 <?php
+  }
+
   include "footer.php"
 ?>
