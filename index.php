@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
   include "data/metadata.php";
   include "scripts/utils.php";
@@ -65,7 +65,7 @@
             <div class="span6">
               <h3>Directed by</h3>
               <ul class="unstyled">
-                <li>Prof Nim Arinaminpathy </li>
+                <li>Dr Anne Cori</li>
               </ul>
             </div>
           </div>
