@@ -58,7 +58,7 @@ The website is currently deployed on a Windows server, and runs on vanilla PHP w
   * `day` is the three-lettered day name
   * `text` is a one-line title, for example `Sunday: Maths and Excel refresher day`.
 
-* The second file: `timetable_slots.csv` contains five fieldes:-
+* The second file: `timetable_slots.csv` contains five fields:-
   * `day` is the numerical day, matching `no` in the previous file.
   * `slot` is a numberical slot number - just an ordering of what happens. The timetable
     hasn't included times so far, which we could change.
