@@ -34,7 +34,7 @@
           </span></p>
 
           <hr>
-          <p class="lead"> Taught by leading researchers who advise policy-makers internationally. Topics include HIV, TB, malaria, Ebola, COVID-19, health economics, vaccination programmes, stochastic models &amp; more.</p>
+          <p class="lead"> Taught by leading researchers who advise policy-makers internationally. Topics include HIV, TB, malaria, outbreak response, COVID-19, health economics, vaccination programmes, stochastic models &amp; more.</p>
 
           <h3>Organised by:</h3>
           <ul class="unstyled">
