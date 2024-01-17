@@ -39,7 +39,7 @@
           <h3>Organised by:</h3>
           <ul class="unstyled">
           <li><a href="https://www.imperial.ac.uk/school-public-health/infectious-disease-epidemiology/" target="_blank">Department of Infectious Disease Epidemiology  Imperial College London</a></li>
-          <li> St. Mary's Campus, Norfolk Place, London, W2 1PG</li>
+          <li> School of Public Health, White City</li>
           </ul>
 
           <h3>Incorporating:</h3>

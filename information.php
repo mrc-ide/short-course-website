@@ -33,7 +33,7 @@
             <ul id="infotabs" class="nav nav-tabs span12">
               <li class="active"><a href="#registration" data-toggle="tab">Registration</a></li>
               <li><a href="#payment" data-toggle="tab">Payment</a></li>
-              <li><a href="#getting_here" data-toggle="tab" onclick="reload('map')">Getting to St. Mary's</a></li>
+              <li><a href="#getting_here" data-toggle="tab" onclick="reload('map')">Getting to the White City Campus</a></li>
               <li><a href="#accomodation" data-toggle="tab">Accommodation</a></li>
               <li><a href="#visas" data-toggle="tab">Visas</a></li>
               <li><a href="#cancellations" data-toggle="tab">Cancellations</a></li>
@@ -66,30 +66,27 @@
 
               </div>
               <div id="getting_here" class="tab-pane">
-                <h2>Getting to St. Mary's</h2>
+                <h2>Getting to White City</h2>
                 <div class="row-fluid">
                   <div class="span7">
       
                     <h3>By Air</h3>
-                    <p><strong>Heathrow</strong> - St. Mary's is situated close to Paddington Station which is in easy reach of Heathrow Airport via the Heathrow Express or Elizabeth line.  </p>
-                    <p>Gatwick, Stansted, Luton and City Airports are all easily accessible via tube connections.</p>
+                    <p>The closest airport is Heathrow, from where a taxi or other private road transport will take approximately 35 minutes to reach the Campus. Via the underground, you can take the new Elizabeth Line to Ealing Broadway and then change to the Central line to White City. Alternatively, the Heathrow Express and Hammersmith and City / Circle line trains will take you into Wood Lane station in approximately 45 minutes.</p>
 
-                    <h3>By Rail and Tube</h3>
-                    <p>Paddington Station is on the Circle, Disrict, Bakerloo, Elizabeth, and Hammersmith &amp; City Underground Lines which are easily accessible from mainline rail stations.</p>
-                    <p>For timetable and journey planning please visit the Transport for London Website.</p>
+                    <h3>By Public Transport</h3>
+                    <p>The nearest Underground station is White City, served by the Central line.
+
+The Campus is also just six minutes walk from Wood Lane station (Circle and Hammersmith and City lines) and just under 20 minutes walk from Shepherd’s Bush station (Central line, Overground and National Rail connections).</p>
+                    <p>Plan your route with the Transport for London journey planner</p>
+                    (<a href="https://tfl.gov.uk/plan-a-journey/</a>).</p>    
 
                     <h3>By Car</h3>
-                    <a href="http://maps.google.co.uk/maps?f=q&hl=en&geocode=&q=w2+1pg&sll=53.800651,-4.064941&sspn=25.410451,64.423828&ie=UTF8&ll=51.517763,-0.173163&spn=0.006336,0.015728&z=17&g=w2+1pg&iwloc=addr">Please click here for journey planning routes.</a>
+                    <p>Imperial’s White City Campus is next to the Westway (A40), a key route into the heart of London. It also takes you outwards to the North Circular ring road (A406) surrounding central London, and beyond to the M25 encircling Greater London.
+
+There is parking provision for external, registered visitors and for maintenance contractors who need to access the site. There are also permanent parking spaces for disabled staff and disabled students based at the White City Campus. </p>
                   </div>
-                  <div class="span5">
-                    <iframe id="map" style="border: 1px solid black; margin: 0px 0px 0px 0px; overflow:hidden;" width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.17644107341766357%2C51.51592028776117%2C-0.16936004161834717%2C51.518958004956936&amp;layer=mapnik&amp;marker=51.51743750260857,-0.17317414283752441"></iframe><br><small><a href="https://www.openstreetmap.org/?mlat=51.51744&amp;mlon=-0.17317#map=18/51.51744/-0.17317">View Larger Map</a></small>
-                  </div>
+                  
                 </div>
-              </div>
-              
-              <div id="accomodation" class="tab-pane">
-                <h2>Accommodation</h2>
-                <p>Single bedroom accommodation is available in local hotels within easy access to the St. Mary's Hospital Campus. Student accommodation at the South Kensington campus is also available (<a href="https://www.imperial.ac.uk/visit/summer-accommodation/">https://www.imperial.ac.uk/visit/summer-accommodation/</a>).</p>    
               </div>
               <div id="visas" class="tab-pane">
                 <h2>Visas</h2>
