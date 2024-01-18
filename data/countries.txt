@@ -54,10 +54,10 @@ Cook Islands (the)
 Costa Rica
 Croatia
 Cuba
-Curaçao
+Curacao
 Cyprus
 Czechia
-Côte d'Ivoire
+Cote d'Ivoire
 Denmark
 Djibouti
 Dominica
@@ -182,8 +182,8 @@ Republic of North Macedonia
 Romania
 Russian Federation (the)
 Rwanda
-Réunion
-Saint Barthélemy
+Reunion
+Saint Barthelemy
 Saint Helena, Ascension and Tristan da Cunha
 Saint Kitts and Nevis
 Saint Lucia
