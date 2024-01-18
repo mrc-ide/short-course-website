@@ -22,7 +22,7 @@
 
 
   function get_data() {
-    global $db_info, $db_host, $datefrom, $dateto;
+    global $db_info, $db_host, $datefrom, $dateto, $upload_path;
     $res = get_application_info();
 
     foreach ($res as $row) {
@@ -41,8 +41,17 @@
         echo "<td>".$row['id']."</td>";
         echo "<td>".$row['title']."</td><td>".$row['firstname']."</td>";
         echo "<td>".$row['surname']."</td>";
-        echo "<td><a href='getfile.php?file=".base64_encode($row['FILE1'])."'>Download</a></td>";
-        echo "<td><a href='getfile.php?file=".base64_encode($row['FILE2'])."'>Download</a></td>";
+        if (file_exists($upload_path.$row['FILE1'])) {
+          echo "<td><a href='getfile.php?file=".base64_encode($row['FILE1'])."'>Download</a></td>";
+        } else {
+          echo "<td>&nbsp;</td>";
+        }
+
+        if (file_exists($upload_path.$row['FILE2'])) {
+          echo "<td><a href='getfile.php?file=".base64_encode($row['FILE2'])."'>Download</a></td>";
+        } else {
+          echo "<td>&nbsp;</td>";
+        }
         echo "<td>".$dt2."</td></tr>\n";
       }
     }
