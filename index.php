@@ -46,7 +46,7 @@
           <ul class="unstyled">
             <li><a href="https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis" target="_blank">MRC Centre for Global Infectious Disease Analysis</a></li>
             <li><a href="http://www.epidem.org/" target="_blank">UNAIDS Epidemiology Reference Group secretariat</a></li>
-            <li><a href="https://www.imperial.ac.uk/hpru-modelling/" target="_blank">NIHR-HPRU in Modelling Methodology</a></li>
+            <li><a href="https://www.imperial.ac.uk/hpru-modelling/" target="_blank">NIHR HPRU in Modelling and Health Economics</a></li>
           </ul>
 
           <div class="row-fluid">
@@ -60,6 +60,8 @@
                 <li>Prof Maria-Gloria Basáñez</li>
                 <li>Prof Nicholas Grassly</li>
                 <li>Prof Katharina Hauck</li>
+                <li>Prof Peter White</li>
+                <li>Prof Tim Hallettk</li>
               </ul>
             </div>
             <div class="span6">
