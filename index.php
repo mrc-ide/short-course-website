@@ -61,7 +61,7 @@
                 <li>Prof Nicholas Grassly</li>
                 <li>Prof Katharina Hauck</li>
                 <li>Prof Peter White</li>
-                <li>Prof Tim Hallettk</li>
+                <li>Prof Tim Hallett</li>
               </ul>
             </div>
             <div class="span6">
