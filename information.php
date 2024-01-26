@@ -59,9 +59,9 @@
                 <p>Payments will be accepted until <?=friendly_date($last_payment_date) ?> (5pm BST)</p>
                 <h2>Scholarships available for candidates from LMICs</h2>
 
-            <p class="alert alert-info"><b>Please Note: </b> The deadline to apply for the LMIC Scholarship has now passed</p>
+            <!--  <p class="alert alert-info"><b>Please Note: </b> The deadline to apply for the LMIC Scholarship has now passed</p>  -->
 
-               <!-- <p>We offer a limited number of scholarships for participants from LMICs; scholarship applications must be received by <?=friendly_date($scholarship_date)?>.</p> -->
+               <p>We offer a limited number of scholarships for participants from LMICs; scholarship applications must be received by <?=friendly_date($scholarship_date)?>.</p>
 
               </div>
               <div id="getting_here" class="tab-pane">
