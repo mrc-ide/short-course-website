@@ -34,7 +34,6 @@
               <li class="active"><a href="#registration" data-toggle="tab">Registration</a></li>
               <li><a href="#payment" data-toggle="tab">Payment</a></li>
               <li><a href="#getting_here" data-toggle="tab" onclick="reload('map')">Getting to the White City Campus</a></li>
-              <li><a href="#accomodation" data-toggle="tab">Accommodation</a></li>
               <li><a href="#visas" data-toggle="tab">Visas</a></li>
               <li><a href="#cancellations" data-toggle="tab">Cancellations</a></li>
             </ul>
