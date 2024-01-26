@@ -76,8 +76,8 @@
                     <p>The nearest Underground station is White City, served by the Central line.
 
 The Campus is also just six minutes walk from Wood Lane station (Circle and Hammersmith and City lines) and just under 20 minutes walk from Shepherd’s Bush station (Central line, Overground and National Rail connections).</p>
-                    <p>Plan your route with the Transport for London journey planner</p>
-                    (<a href="https://tfl.gov.uk/plan-a-journey/</a>).</p>    
+                    <p>Plan your route with the 
+                <a href="https://tfl.gov.uk/plan-a-journey/">Transport for London journey planner</a>). </p>
 
                     <h3>By Car</h3>
                     <p>Imperial’s White City Campus is next to the Westway (A40), a key route into the heart of London. It also takes you outwards to the North Circular ring road (A406) surrounding central London, and beyond to the M25 encircling Greater London.
