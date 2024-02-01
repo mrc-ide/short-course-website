@@ -146,6 +146,13 @@
               <div class="span4"><input type="email" name="email2" id="email2" class="required"></div>
               <div id="email2_err" class="error_message span6"></div>
             </div>
+
+            <div class="row-fluid">
+              <label class="span2" for="lmic">Apply for LMIC scholarship?</label>
+              <div class="span4"><input type="checkbox" name="lmic" id="lmic" class="required"></div>
+              <div id="checkbox_err" class="error_message span6"></div>
+            </div>
+
             <hr>
             <div class="row-fluid">
               <label class="span2" for="FILE1">Attach CV</label>

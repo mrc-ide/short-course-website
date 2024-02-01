@@ -1,4 +1,4 @@
-<?php 
+<?php
   include("data/metadata.php");
   include("header.php");
   include("data/db_metadata.php");
@@ -37,7 +37,14 @@
   else $q4 = $_POST['q4'];
 
   $cvname = $_FILES['FILE1']['name'];
-  $scholarship = "0";
+
+  $scholarship = 0;
+
+  if (isset($_POST['lmic'])) {
+    if ($_POST['lmic'] == "on") {
+      $scholarship = 1;
+    }
+  }
 
   if ($ok) {
     $id = get_next_id();
@@ -52,12 +59,12 @@
     add_application($id, $title, $firstname, $surname, $country, $email, $cvname, "NULL", $date, $scholarship, $q1, $q2, $q3, $q4);
 ?>
       &nbsp;<br/>&nbsp;
-      <h1>Application Submitted</h1>           
+      <h1>Application Submitted</h1>
     </div>
     <p class="alert alert-success">Thank you for submitting your application for the Introduction to Mathematical Models of the Epidemiology and Control of Infectious Diseases <?= year_span($start_date, $start_date) ?>.</p>
 
     <p>Your unique application ID is <strong><?php echo $id; ?></strong> <em>Please make a note of this.</em></p>
-    <p>Applications are assessed in batches. If you do not hear from us within 28 days, please email <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">infectiousdiseasemodels@imperial.ac.uk</a></p> 
+    <p>Applications are assessed in batches. If you do not hear from us within 28 days, please email <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">infectiousdiseasemodels@imperial.ac.uk</a></p>
 
 <?php
 
@@ -75,6 +82,6 @@
   </div>
 </div>
 
-<?php 
+<?php
   include("footer.php");
 ?>

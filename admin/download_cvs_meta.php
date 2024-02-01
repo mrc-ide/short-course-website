@@ -22,7 +22,7 @@
     
     if ($command == "meta") {
       $csv = fopen("php://memory", "w");
-      fwrite($csv, "id\ttitle\tfirst_name\tsurname\temail\tdate\tcv_file\tcover_file\tcountry\tq1\tq2\tq3\tq4\n");
+      fwrite($csv, "id\ttitle\tfirst_name\tsurname\temail\tdate\tcv_file\tcover_file\tcountry\tscholarship\tq1\tq2\tq3\tq4\n");
 
 
     } else if ($command == "cvs") {
@@ -53,6 +53,7 @@
           fwrite($csv, dq($row['FILE1'])."\t");
           fwrite($csv, dq($row['FILE2'])."\t");
           fwrite($csv, dq($row['country'])."\t");
+          fwrite($csv, dq($row['scholarship'])."\t");
           fwrite($csv, dq($row['q1'])."\t");
           fwrite($csv, dq($row['q2'])."\t");
           fwrite($csv, dq($row['q3'])."\t");
