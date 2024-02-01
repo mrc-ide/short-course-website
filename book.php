@@ -11,7 +11,7 @@
         }
 
         function validate() {
-          if (document.uploader.email.value != document.uploader.email2.value) {      
+          if (document.uploader.email.value != document.uploader.email2.value) {
             alert("Email addresses must match");
             return(false);
           }
@@ -40,8 +40,14 @@
             return(false);
           }
 
-          if (document.uploader.FILE2.value == "") {
-            alert("Please upload a covering letter");
+          if (document.uploader.country.value == "") {
+            alert("Please select the country you live in");
+            return(false);
+          }
+
+          if ((document.uploader.q1.value == "") || (document.uploader.q2.value == "") ||
+              (document.uploader.q3.value == "") || (document.uploader.q4.value == "")) {
+            alert("Please answer all four questions at the bottom.");
             return(false);
           }
 
@@ -71,10 +77,9 @@
 
       <div class="row-fluid">
         <div class="span 12">
-          <p>To apply please fill out the form below and upload a copy of your CV and a covering letter briefly outlining your background and explaining your reasons for wanting to attend the course. Please see our <a href="privacy.php">Privacy Policy</a> about how we use the data you submit. When your application has been processed you will be notified if you have been successful or not. Last year's course was oversubscribed. Places on the course are limited, early booking is strongly advised.<br>&nbsp;<br>
+          <p>To apply please fill out the form below and upload a copy of your CV. Please see our <a href="privacy.php">Privacy Policy</a> about how we use the data you submit. When your application has been processed you will be notified if you have been successful or not. Last year's course was oversubscribed. Places on the course are limited, early booking is strongly advised.<br>&nbsp;<br>
 
-          <!--<strong>If you are applying for the LMIC scholarship, please clearly state this in the first line of your cover letter and specify the country in which you are based.</strong><br>&nbsp;<br> -->
-          <strong>Please note the deadline for the LMIC scholarship has now passed </strong><br>&nbsp;<br>
+            <!--    <strong>Please note the deadline for the LMIC scholarship has now passed </strong><br>&nbsp;<br> -->
 
           </p>
 
@@ -99,7 +104,7 @@
             </div>
 
             <div class="row-fluid">
-              <label class="span2" for="firstname">FirstName</label>
+              <label class="span2" for="firstname">First Name</label>
               <div class="span4"><input type="text" name="firstname" id="firstname" class="required"></div>
               <div id="firstname_err" class="error_message span6"></div>
             </div>
@@ -108,6 +113,26 @@
               <label class="span2" for="surname">Surname</label>
               <div class="span4"><input type="text" name="surname" id="surname" class="required"></div>
               <div id="surname_err" class="error_message span6"></div>
+            </div>
+
+            <div class="row-fluid">
+              <label class="span2" for="country">Country of residence</label>
+              <div class="span4">
+                <select name="country" id="country" class="required">
+                  <option value="" selected>Please Select</option>
+<?php
+  $f = fopen("data/countries.txt", "r");
+  while(!feof($f)) {
+    $c = trim(fgets($f));
+    if (strlen($c) > 0) {
+      echo "                  <option value=\"".$c."\">".$c."</option>";
+    }
+  }
+  fclose($f)
+?>
+                </select>
+              </div>
+              <div id="country_err" class="error_message span6"></div>
             </div>
 
             <div class="row-fluid">
@@ -121,6 +146,13 @@
               <div class="span4"><input type="email" name="email2" id="email2" class="required"></div>
               <div id="email2_err" class="error_message span6"></div>
             </div>
+
+            <div class="row-fluid">
+              <label class="span2" for="lmic">Apply for LMIC scholarship?</label>
+              <div class="span4"><input type="checkbox" name="lmic" id="lmic" class="required"></div>
+              <div id="checkbox_err" class="error_message span6"></div>
+            </div>
+
             <hr>
             <div class="row-fluid">
               <label class="span2" for="FILE1">Attach CV</label>
@@ -130,14 +162,42 @@
               <div id="FILE1_err" class="error_message span6"></div>
             </div>
             <hr>
+            <strong>Please briefly answer the following four questions; maximum 600 characters for each.</strong><br>
+            &nbsp;<br>
+            
             <div class="row-fluid">
-              <label class="span2" for="FILE2">Attach Cover Letter</label>
-              <div class="span4"><input type="file" size="50" name="FILE2" id="FILE2" class="required">
-                <span class="help-block">Please include your surname in the name of the file.</span>
+              <label class="span2" for="q1">What is your motivation for attending the course?</label>
+              <div class="span4">
+                <textarea rows="6" style="width:100%" class="required" maxlength="600" name="q1" id="q1"/></textarea>
               </div>
-              <div id="FILE2_err" class="error_message span6"></div>
-              <input type="hidden" name="saveto" value="disk">
+              <div id="q1_err" class="error_message span6"></div>
+            </div><br>
+
+
+            <div class="row-fluid">
+              <label class="span2" for="q2">How does your work or research align with the department's priority research themes and/or disease areas?</label>
+              <div class="span4">
+                <textarea rows="6" style="width:100%" class="required" maxlength="600" name="q2" id="q2"/></textarea>
+              </div>
+              <div id="q2_err" class="error_message span6"></div>
+            </div><br>
+
+            <div class="row-fluid">
+              <label class="span2" for="q3">What is your prior experience of working with mathematical modelling or modellers?</label>
+              <div class="span4">
+                <textarea rows="6" style="width:100%" class="required" maxlength="600" name="q3" id="q3"/></textarea>
+              </div>
+              <div id="q3_err" class="error_message span6"></div>
+            </div><br>
+
+            <div class="row-fluid">
+              <label class="span2" for="q4">How would you apply what you learned on the course in your work, particularly in terms of capacity building?</label>
+              <div class="span4">
+                <textarea rows="6" style="width:100%" class="required" maxlength="600" name="q4" id="q4"/></textarea>
+              </div>
+              <div id="q4_err" class="error_message span6"></div>
             </div>
+
             <hr>
             <div class="row-fluid">
               <div class="span4 offset2">

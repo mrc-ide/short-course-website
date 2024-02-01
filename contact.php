@@ -23,10 +23,10 @@
             <br>
             <address>
               Department of Infectious Disease Epidemology,<br>
-              Imperial College - St. Mary's Campus,<br>
-              Norfolk Place,<br>
-              London<br>
-              W2 1PG<br>
+              Imperial College London School of Public Health,<br>
+              White City Campus,<br>
+              80–92 Wood Lane,<br>
+              London W12 0BZ<br>
             </address>
           
         </div>

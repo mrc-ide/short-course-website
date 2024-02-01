@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
   include "data/metadata.php";
   include "scripts/utils.php";
@@ -23,14 +23,14 @@
   <ul>
     <li>Your name and contact details</li>
     <li>Your CV</li>
-    <li>A covering letter describing your background, and why you would like to apply.</li>
+    <li>An application form describing your background, and why you would like to apply.</li>
   </ul>
 
   <h1>How we use your personal data</h1>
   We will only use your personal data when the law allows us to.<br>&nbsp;<br>
   <ul>
-    <li>We will need your name and contact details to commuinicate with you regarding your application and provide you with information necessary for participating in the course.</li>
-    <li>We will use your CV and covering letter to help us understand your background and expertise, so we can engage with you most effectively during the course.</li>
+    <li>We will need your name and contact details to communicate with you regarding your application and provide you with information necessary for participating in the course.</li>
+    <li>We will use your CV and application form to help us understand your background and expertise, so we can engage with you most effectively during the course.</li>
   </ul>
 
   <h1>Where we store your data</h1>

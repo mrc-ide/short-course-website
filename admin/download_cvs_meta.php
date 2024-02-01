@@ -22,7 +22,7 @@
     
     if ($command == "meta") {
       $csv = fopen("php://memory", "w");
-      fwrite($csv, "id,title,first_name,surname,email,date,cv_file,cover_file\n");
+      fwrite($csv, "id\ttitle\tfirst_name\tsurname\temail\tdate\tcv_file\tcover_file\tcountry\tscholarship\tq1\tq2\tq3\tq4\n");
 
 
     } else if ($command == "cvs") {
@@ -39,17 +39,25 @@
       if (isset($_POST['cb_'.$row['id']])) {
         if ($command == "cvs") {
           $zip->addFile($upload_path.$row['FILE1'], $row['FILE1']);
-          $zip->addFile($upload_path.$row['FILE2'], $row['FILE2']);
+          if (file_exists($upload_path.$row['FILE2'])) {
+            $zip->addFile($upload_path.$row['FILE2'], $row['FILE2']);
+          }
 
         } else if ($command == "meta") {
-          fwrite($csv, dq($row['id']).",");
-          fwrite($csv, dq($row['title']).",");
-          fwrite($csv, dq($row['firstname']).",");
-          fwrite($csv, dq($row['surname']).",");
-          fwrite($csv, dq($row['email']).",");
-          fwrite($csv, dq($dt2).",");
-          fwrite($csv, dq($row['FILE1']).",");
-          fwrite($csv, dq($row['FILE2'])."\n");
+          fwrite($csv, dq($row['id'])."\t");
+          fwrite($csv, dq($row['title'])."\t");
+          fwrite($csv, dq($row['firstname'])."\t");
+          fwrite($csv, dq($row['surname'])."\t");
+          fwrite($csv, dq($row['email'])."\t");
+          fwrite($csv, dq($dt2)."\t");
+          fwrite($csv, dq($row['FILE1'])."\t");
+          fwrite($csv, dq($row['FILE2'])."\t");
+          fwrite($csv, dq($row['country'])."\t");
+          fwrite($csv, dq($row['scholarship'])."\t");
+          fwrite($csv, dq($row['q1'])."\t");
+          fwrite($csv, dq($row['q2'])."\t");
+          fwrite($csv, dq($row['q3'])."\t");
+          fwrite($csv, dq($row['q4'])."\n");
         }
       }
     }

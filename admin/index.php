@@ -22,7 +22,7 @@
 
 
   function get_data() {
-    global $db_info, $db_host, $datefrom, $dateto;
+    global $db_info, $db_host, $datefrom, $dateto, $upload_path;
     $res = get_application_info();
 
     foreach ($res as $row) {
@@ -41,8 +41,22 @@
         echo "<td>".$row['id']."</td>";
         echo "<td>".$row['title']."</td><td>".$row['firstname']."</td>";
         echo "<td>".$row['surname']."</td>";
-        echo "<td><a href='getfile.php?file=".base64_encode($row['FILE1'])."'>Download</a></td>";
-        echo "<td><a href='getfile.php?file=".base64_encode($row['FILE2'])."'>Download</a></td>";
+        if ($row['scholarship'] == "1") {
+          echo "<td style='text-align:center'>Y</td>";
+        } else {
+          echo "<td>&nbsp;</td>";
+        }
+        if (file_exists($upload_path.$row['FILE1'])) {
+          echo "<td><a href='getfile.php?file=".base64_encode($row['FILE1'])."'>Download</a></td>";
+        } else {
+          echo "<td>&nbsp;</td>";
+        }
+
+        if (file_exists($upload_path.$row['FILE2'])) {
+          echo "<td><a href='getfile.php?file=".base64_encode($row['FILE2'])."'>Download</a></td>";
+        } else {
+          echo "<td>&nbsp;</td>";
+        }
         echo "<td>".$dt2."</td></tr>\n";
       }
     }
@@ -115,7 +129,7 @@
     <form action="index.php" method="post" id="fentries" name="fentries">
       <input type="hidden" name="command" value="download" >
       <table class="table table-striped table-hover table-bordered">
-        <tr><th><input onclick="javascript:checkAll(this)" type="checkbox" name="all" id="all">  All </th><th>id</th><th>Title</th><th>First name </th><th>Surname</th><th>CV</th><th>Covering Letter </th><th>Date</th></tr>
+        <tr><th><input onclick="javascript:checkAll(this)" type="checkbox" name="all" id="all">  All </th><th>id</th><th>Title</th><th>First name </th><th>Surname</th><th>LMIC App</th><th>CV</th><th>Covering Letter </th><th>Date</th></tr>
         <?php get_data(); ?>
       </table>
       <button onclick="subm('cvs')" type="button" class="btn btn-success">Download Selected CVs and Covering Letters</button>
