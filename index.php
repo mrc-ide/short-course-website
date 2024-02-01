@@ -95,7 +95,7 @@
         <p>
           <strong>Contact: <a href="https://www.imperial.ac.uk/people/l.whittles">Dr Lilith Whittles</a> or <a href="https://www.imperial.ac.uk/people/c.mccormack14">Dr Clare McCormack</a></strong><br>
           <strong>Email:</strong> <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">infectiousdiseasemodels@imperial.ac.uk</a><br>
-          <strong></strong> <a class="nav" href="<?= $cpath ?>book.php"APPLY NOW</a></strong>><br>
+          <strong></strong> <a class="nav" href="<?= $cpath ?>book.php">APPLY NOW</a></strong>><br>
         </p>
       </div>
 
