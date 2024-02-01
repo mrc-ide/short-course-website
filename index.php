@@ -93,9 +93,9 @@
            <!--       <li><strong>Please note the scholarship deadline has now passed <br></strong></li> -->
         </ul>
         <p>
-          <strong>Contact: <a href="https://www.imperial.ac.uk/people/l.whittles">Dr Lilith Whittles</a> or <a href="https://www.imperial.ac.uk/people/c.mccormack14">Dr Clare McCormack</a></strong><br>
+        <span style="color:#800000"><strong><a class="nav" href="<?= $cpath ?>book.php">APPLY NOW</a></strong></span style="color:#800000"><br>
+          <strong>Contact:</strong> <a href="https://www.imperial.ac.uk/people/l.whittles">Dr Lilith Whittles</a> or <a href="https://www.imperial.ac.uk/people/c.mccormack14">Dr Clare McCormack</a><br>
           <strong>Email:</strong> <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">infectiousdiseasemodels@imperial.ac.uk</a><br>
-          <strong></strong> <a class="nav" href="<?= $cpath ?>book.php">APPLY NOW</a></strong>><br>
         </p>
       </div>
 
