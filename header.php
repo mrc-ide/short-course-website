@@ -60,9 +60,11 @@
             <li class=""><a href="<?= $cpath ?>about.php">About Us</a></li>
             <li class=""><a href="<?= $cpath ?>information.php">Useful Information</a></li>
             <li class=""><a href="<?= $cpath ?>contact.php">Contact Us</a></li>
-<?php if ($applications_open) { ?>
-            <li class=""><a href="<?= $cpath ?>book.php"><strong>APPLY NOW</strong></a></li>
-<?php } ?>
+          </ul>
+          <ul class="nav">
+          <?php if ($applications_open) { ?>
+            <li class=""><a class="nav" href="<?= $cpath ?>book.php"><strong>APPLY NOW</strong></a></li>
+           <?php } ?>
           </ul>
         </div>
       </div>
