@@ -63,7 +63,7 @@
           </ul>
           <ul class="nav">
           <?php if ($applications_open) { ?>
-            <li class=""><a class="nav" href="<?= $cpath ?>book.php"><strong>APPLY NOW</strong></a></li>
+            <li class=""><a class="nav" href="<?= $cpath ?>book.php"><span style="color:#800000"><strong>APPLY NOW</strong></span></a></li>
            <?php } ?>
           </ul>
         </div>
