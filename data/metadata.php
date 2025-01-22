@@ -9,9 +9,9 @@ $show_timetable = false;
 
 // Start and end dates of course
 
-$start_date = "2024-09-09";
-$end_date = "2024-09-20";
-$maths_date = "2024-09-08";
+$start_date = "2025-09-15";
+$end_date = "2024-09-26";
+$maths_date = "2025-09-14";
 
 $scholarship_date = "2024-04-01";
 
