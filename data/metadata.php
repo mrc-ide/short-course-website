@@ -13,7 +13,7 @@ $start_date = "2025-09-15";
 $end_date = "2025-09-26";
 $maths_date = "2025-09-14";
 
-$scholarship_date = "2024-03-16";
+$scholarship_date = "2025-03-16";
 
 $early_booking_date = "2025-06-01";
 $early_cost = "2565";
