@@ -216,7 +216,21 @@
 		"pubs" : "http://www.imperial.ac.uk/people/m.pons-salort/publications.html"
 
 	},
-		{
+	{
+		"identifier" : "t_rawson",
+		"title" : "Dr",
+		"forenames" : ["Thom"],
+		"postnominals": [""],
+		"surname" : "Rawson",
+		"positions" : [
+			"Research Associate"
+		],
+		"description" : "Dr Rawson is a mathematical modeller based in the Jameel Institute applying mathematical and statistical techniques to best utilise epidemiological data. During the pandemic, he worked as part of Imperial's real-time modelling team, providing weekly projections of the pandemic trajectory to the Scientific Pandemic Infections group on Modelling (SPI-M). He has investigated the impact of decisions made regarding vaccine rollout, and explored the effect of health inequity during the pandemic. His main research interests focus on the spread of zoonotic pathogens, predominating within agricultural settings. Most recently he has worked in modelling the spread of H5N1 influenza.",
+		"photo" : "images/presenters/t_rawson.jpg",
+		"pubs" : "https://www.imperial.ac.uk/people/t.rawson/publications.html"
+
+	},
+	{
 		"identifier" : "romain_silhol",
 		"title" : "Dr",
 		"forenames" : ["Romain"],
@@ -306,20 +320,6 @@
 		"description" : "Dr Winskill is a Bill & Melinda Gates Foundation funded research fellow based in the MRC Centre for Global Infectious Disease Analysis. He is leading a project to develop a formal global malaria modelling framework to support the use of the Imperial College London malariasimulation malaria transmission model in global modelling requests and for national and sub-national modelling. The project builds upon group-wide work to maximise impact as well as leveraging outputs from the wider research community. The project will link the transmission model to primary data and provide the foundation for the development of tools to support country programmes and the investigation of critical research questions.",
 		"photo" : "images/presenters/p_winskill.jpg",
 		"pubs" : "https://www.imperial.ac.uk/people/p.winskill/publications.html"
-
-	},
-	{
-		"identifier" : "t_rawson",
-		"title" : "Dr",
-		"forenames" : ["Thom"],
-		"postnominals": [""],
-		"surname" : "Rawson",
-		"positions" : [
-			"Research Associate"
-		],
-		"description" : "Dr Rawson is a mathematical modeller based in the Jameel Institute applying mathematical and statistical techniques to best utilise epidemiological data. During the pandemic, he worked as part of Imperial's real-time modelling team, providing weekly projections of the pandemic trajectory to the Scientific Pandemic Infections group on Modelling (SPI-M). He has investigated the impact of decisions made regarding vaccine rollout, and explored the effect of health inequity during the pandemic. His main research interests focus on the spread of zoonotic pathogens, predominating within agricultural settings. Most recently he has worked in modelling the spread of H5N1 influenza.",
-		"photo" : "images/presenters/t_rawson.jpg",
-		"pubs" : "https://www.imperial.ac.uk/people/t.rawson/publications.html"
 
 	}
 ]
