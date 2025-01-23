@@ -12,13 +12,13 @@
       <script>
         function load_presenters() {
           $.ajax({
-            url:'data/presenters.json', 
+            url:'data/presenters.json',
             success : function(presenters) {
               for (var i = 0 ; i < presenters.length; i++) {
                 var pres = presenters[i];
 
                 //create and load tab link
-                var link = '<li><a href="#' + pres.identifier +'" data-toggle="tab">' + 
+                var link = '<li><a href="#' + pres.identifier +'" data-toggle="tab">' +
                            ([pres.title].concat(pres.forenames).concat(pres.surname)).join(' ') +  '</a></li>';
                 if(pres.title == "Professor") {
                   $('#prestabs .divider').before(link);
@@ -30,7 +30,7 @@
                 var div = '<div id="' + pres.identifier +'"  class="tab-pane" >'
                   + '<h2>' + pres.title + ' ' + pres.forenames.join(' ') + ' ' + pres.surname + ' ' + pres.postnominals.join(' ') + '</h2>'
                   + '<div class="row-fluid">'
-                  + '<div class="span3"><img alt="" src="' + (pres.photo ? pres.photo : 'holder.js/150x200') + '" class="img-polaroid pull-left headshot"></div>' 
+                  + '<div class="span3"><img alt="" src="' + (pres.photo ? pres.photo : 'holder.js/150x200') + '" class="img-polaroid pull-left headshot"></div>'
                   + '<div class="span9"><ul class="unstyled positions"><li>' + pres.positions.join('</li><li>') + '</li></ul>'
                   + '<p>'+ pres.description +'</p>'
                   + '<a href="'+pres.pubs+'" class="btn btn-primary">View ' + pres.title + ' ' + pres.surname + '\'s Publications</a></div>'
@@ -45,13 +45,13 @@
             }
           });
         }
-    
+
         $(load_presenters());
       </script>
 
       <header class="page-header">
         <h1>Course Information</h1>
-      </header>            
+      </header>
       <div class="row-fluid">
         <div class="span12">
           <div class="row-fluid tabbable">
@@ -75,11 +75,11 @@
                 <p>Over the last 30 years there has been rapid progress in developing models and techniques for the analysis of epidemic data. Those techniques have been applied to a variety of pathogens such as HIV, SARS, avian influenza, pandemic influenza, Ebola and malaria. The Department of Infectious Disease Epidemiology, Imperial College London has been the world leader in mathematical modelling of the epidemiology and control of infectious diseases of humans and animals, for many years. Our department is actively engaged in research and regularly advises public health professionals, policy-makers, governments, international organisations and pharmaceutical companies, often during real-time outbreak situations.</p>
                 <p>Our course has been taught since 1990 by leading researchers in infectious disease epidemiology, who provide a thorough, but accessible and demystifying introduction to the essential elements of modelling and an update of the most practically-relevant aspects of this fast-moving field. The course is revised every year to reflect the most recent developments in the field. Diseases covered include COVID-19, avian influenza, SARS, HIV, TB, Influenza A (H1N1), Ebola, malaria and other vector-borne diseases. Past participants have included hospital clinicians, public health executives, health economists, veterinary researchers, biologists, and mathematicians who have come from 42 countries.</p>
               </div>
-        
+
               <div id="courseaims" class="tab-pane">
                 <h2> Course Aims</h2>
                 <p>This course will enable you to:</p>
-            
+
                 <ul>
                   <li>Understand the key concepts of infectious disease transmission and control - and the differences with non-infectious diseases, taught by people who apply those concepts every day.</li>
                   <li>Learn how modelling informs policy-making, from case-studies presented by the individuals who advise public health professionals and governments, nationally and internationally.</li>
@@ -144,9 +144,9 @@
                 <div class="row-fluid">
                 <img class="img-polaroid span4" src="images/invited.jpg" alt="Invited speaker">
                   <div class="span8">
-                
+
                     <p>Each year, we also invite a speaker from outside the department. Past speakers have included Dr. Chris Dye (Director of Strategy in the Office of the Director General at the WHO), Prof. Harald Zur Hausen (2008 Nobel Prize in Medicine), Prof. Barry Marshall (2005 Nobel Prize in Medicine), Prof. Peter Piot (former Executive Director of UNAIDS), Dr Robert Newman (former Director of the Global Malaria Programme at the World Health Organization), Dame Anne Johnson (Chair of Population and Lifelong Health at UCL), and Prof. Charlotte Watts (Chief Scientific Advisor, UK Department for International Development).</p>
-                    <p>Every participant is allocated a computer with internet access throughout the course and is given an extensive course manual and permanent access to user-friendly modelling software, along with all the models used and developed on the course.</p>
+                    <p>We ask that all participants bring a laptop computer to allow them to fully engage with our user-friendly modelling software, along with all the models used and developed on the course.</p>
                     <p>The course also provides many opportunities to talk with department staff during numerous social events, including a dinner banquet and special buffet lunches. In the past those informal exchanges have lead to various scientific collaborations. </p>
                     <p>There is no formal assessment but a certificate of attendance is issued.</p>
                   </div>
@@ -155,24 +155,24 @@
 <?php if ($show_timetable) { ?>
               <div id="timetable" class="tab-pane" style="text-align:center">
                 <h2>Provisional Timetable</h2>
-             
+
                 <p>This is a provisional timetable for the course. Exact details may change before the start of the course.</p>
 
                 <?php print_menu(); ?>
 
               </div>
 <?php } ?>
-            
+
               <div id="presenters" class="tab-pane">
                 <div class="row-fluid tabbable">
                   <div id="prestabscontent" class="span8 tab-content">
                   </div>
-                  <ul id="prestabs" class="nav nav-pills nav-stacked span4">  
+                  <ul id="prestabs" class="nav nav-pills nav-stacked span4">
                     <li class="divider"></li>
                   </ul>
                 </div>
               </div>
-          
+
               <div id="social" class="tab-pane">
                 <h2>Social Activities</h2>
                 <div class="row-fluid">
@@ -191,7 +191,7 @@
                     <h2>Comments From Previous Attendees</h2>
                     <p>Past participants have included hospital clinicians, senior public health executives, health economists, veterinary researchers, biologists and mathematicians. They have come from 42 countries worldwide.</p>
 
-                
+
                     <blockquote>Great course, I'm really amazed by how much I've learnt in two weeks</blockquote>
                     <blockquote>Fantastic course, excellent practical introduction to mathematical modelling</blockquote>
                     <blockquote>This course has just opened my eyes in the understanding of the dynamic of infectious diseases.</blockquote>
