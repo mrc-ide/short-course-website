@@ -12,14 +12,14 @@
 
       <div class="row-fluid">
         <div class="span8">
-  
-          Please address all enquiries about the course to <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">Dr Lilith Whittles and Dr Clare McCormack</a>.
+
+          Please address all enquiries about the course to <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">Dr Thomas Rawson and Dr Pablo Perez-Guzman</a>.
           <hr>
-      
+
           <p><strong>Email :</strong> <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">infectiousdiseasemodels@imperial.ac.uk</a></p>
           <hr>
-          
-            <strong>Post:</strong> 
+
+            <strong>Post:</strong>
             <br>
             <address>
               Department of Infectious Disease Epidemology,<br>
@@ -28,12 +28,12 @@
               80–92 Wood Lane,<br>
               London W12 0BZ<br>
             </address>
-          
+
         </div>
         <div class="span4">
         </div>
       </div>
 
-<?php 
+<?php
   include "footer.php"
 ?>
