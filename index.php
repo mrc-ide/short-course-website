@@ -30,7 +30,7 @@
 
       <div class="row-fluid">
         <div class="span8">
-          <p class="lead"><span style="color:#800000"><strong><u>IN-PERSON COURSE FOR 2024:</u></strong></span><span style="color:#800000"> We look forward to welcoming delegates in person in 2024, circumstances permitting. If a move to remote teaching is necessary for any reason, we will keep delegates informed regarding logistics and fees.
+          <p class="lead"><span style="color:#800000"><strong><u>IN-PERSON COURSE FOR 2025:</u></strong></span><span style="color:#800000"> We look forward to welcoming delegates in person in 2025, circumstances permitting. If a move to remote teaching is necessary for any reason, we will keep delegates informed regarding logistics and fees.
           </span></p>
 
           <hr>
@@ -94,7 +94,7 @@
         </ul>
         <p>
         <span style="color:#800000"><strong><a class="nav" href="<?= $cpath ?>book.php">APPLY NOW</a></strong></span style="color:#800000"><br><br>
-          <strong>Contact:</strong> <a href="https://www.imperial.ac.uk/people/l.whittles">Dr Lilith Whittles</a> or <a href="https://www.imperial.ac.uk/people/c.mccormack14">Dr Clare McCormack</a><br>
+          <strong>Contact:</strong> <a href="https://www.imperial.ac.uk/people/t.rawson">Dr Thomas Rawson</a> or <a href="https://www.imperial.ac.uk/people/p.perez-guzman">Dr Pablo Perez-Guzman</a><br>
           <strong>Email:</strong> <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">infectiousdiseasemodels@imperial.ac.uk</a><br>
         </p>
       </div>
