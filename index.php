@@ -87,8 +87,17 @@
           <li><strong>Free Maths and Excel Refresher Day:<br></strong><?= friendly_date($maths_date) ?></li>
           <li>Cost: <?= cost($early_cost) ?> before <?= friendly_date($early_booking_date) ?>, <?= cost($standard_cost) ?> after. </li>
           <li><strong>Applications for <?= year_span($start_date, $end_date) ?> are now <?= ($applications_open) ? "open" : "closed" ?></strong></li>
-         <li><strong>A limited number of full scholarships</strong> (covering course fees, flights and accommodation) are available for candidates from LMICs. <!--The deadline for scholarship applications is <?= friendly_date($scholarship_date) ?>.</li> -->
- <li><strong>Please note the scholarship deadline has now passed <br></strong></li>
+         <li><strong>A limited number of full scholarships</strong> (covering course fees, flights and accommodation) are available for candidates from LMICs.
+<?php if ($today > $scholarship_date) {
+?>
+            <li><strong>Please note the scholarship deadline has now passed <br></strong></li>
+<?php
+          } else {
+?>
+          The application deadline is <?=friendly_date($scholarship_date)?>.</p>.
+<?php
+          }
+?>
         </ul>
         <p>
         <span style="color:#800000"><strong><a class="nav" href="<?= $cpath ?>book.php">APPLY NOW</a></strong></span style="color:#800000"><br><br>

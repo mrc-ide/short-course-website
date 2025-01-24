@@ -58,8 +58,12 @@
                 <p>We do not require payment details when you apply: we will tell you how to pay once you have been offered a place.</p>
                 <p>Payments will be accepted until <?=friendly_date($last_payment_date) ?> (5pm BST)</p>
                 <h2>Scholarships available for candidates from LMICs</h2>
-
-<p class="alert alert-info"><b>Please Note: </b> The deadline to apply for the LMIC Scholarship has now passed</p>
+<?php if ($today > $scholarship_date) {
+?>
+                  <p class="alert alert-info"><b>Please Note: </b> The deadline to apply for the LMIC Scholarship has now passed</p>
+<?php
+                }
+?>
 
                <p>We offer a limited number of scholarships for participants from LMICs; scholarship applications must be received by <?=friendly_date($scholarship_date)?>.</p>
 

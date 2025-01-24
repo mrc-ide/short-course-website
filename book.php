@@ -78,9 +78,12 @@
       <div class="row-fluid">
         <div class="span 12">
           <p>To apply please fill out the form below and upload a copy of your CV. Please see our <a href="privacy.php">Privacy Policy</a> about how we use the data you submit. When your application has been processed you will be notified if you have been successful or not. Last year's course was oversubscribed. Places on the course are limited, early booking is strongly advised.<br>&nbsp;<br>
-
-<strong>Please note the deadline for the LMIC scholarship has now passed </strong><br>&nbsp;<br>
-
+<?php if ($today > $scholarship_date) {
+?>
+            <strong>Please note the deadline for the LMIC scholarship has now passed </strong><br>&nbsp;<br>
+<?php
+}
+?>
           </p>
 
           <form action="submit.php" class="form-horizontal" method="POST" name="uploader" ENCTYPE="multipart/form-data">
