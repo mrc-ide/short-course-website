@@ -20,6 +20,13 @@
 
           <h2>Selected publications authored by members of the Department</h2>
           <ul class="unstyled publications">
+            <li>Hallett TB, Mangal TD, Tamuri AU, et al, 2025,<br><strong>Estimates of resource use in the public-sector health-care system and the effect of strengthening health-care services in Malawi during 2015–19: a modelling study (Thanzi La Onse).</strong><br>The Lancet Global Health, 13:e28-e37</li>
+            <li>Nash R, Bhatia S, Morgenstern C, et al, 2024,<br><strong>Ebola virus disease mathematical models and epidemiological parameters: a systematic review.</strong><br>Lancet Infectious Diseases, 24:e762-e773</li>
+            <li>Churcher TS, Stopard IJ, Hamlet, A, et al, 2024,<br><strong>The epidemiological benefit of pyrethroid–pyrrole insecticide treated nets against malaria: an individual-based malaria transmission dynamics modelling study.</strong><br>The Lancet Global Health, 12:e1973-e1983</li>
+            <li>Barnsley G, Olivera Mesa D, Hogan, A, et al, 2024,<br><strong>Impact of the 100 days mission for vaccines on COVID-19: a mathematical modelling study.</strong><br>The Lancet Global Health, 12:e1764-e1774</li>
+            <li>Perez Guzman PN, Knock ES, Imai N, 2023,<br><strong>Epidemiological drivers of transmissibility and severity of SARS-CoV-2 in England.</strong><br>Nature Communications, 14:1-9</li>
+            <li>Watson O, Barnsley G, Toor J, 2022,<br><strong>Global impact of the first year of COVID-19 vaccination: a mathematical modelling study.</strong><br>Lancet Infectious Diseases, 22:1293-1302</li>
+            <li>Olivera Mesa D, Hogan A, Watson O, et al, 2022,<br><Modelling the impact of vaccine hesitancy in prolonging the need for Non-Pharmaceutical Interventions to control the COVID-19 pandemic.</strong><br>Communications Medicine, 2</li>
             <li>Sonabend R, Whittles LK, Imai N, et al, 2021,<br><strong>Non-pharmaceutical interventions, vaccination, and the SARS-CoV-2 delta variant in England: a mathematical modelling study.</strong><br>The Lancet, 398:1825-1835</li>
             <li>Volz E, Mishra S, Chand M, et al, 2021, <br><strong>Assessing transmissibility of SARS-CoV-2 lineage B. 1.1.7 in England.</strong><br>Nature, 593:266-269</li>
             <li>Faria N, Mellan TA, Whittaker C, et al, 2021, <br><strong>Genomics and epidemiology of the P. 1 SARS-CoV-2 lineage in Manaus, Brazil.</strong><br>Science, 372:815-821</li>
@@ -53,7 +60,7 @@
         </div>
       </div>
 
-<?php 
+<?php
   include "footer.php"
 ?>
 
