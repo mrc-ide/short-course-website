@@ -94,7 +94,7 @@
 <?php
           } else {
 ?>
-          The application deadline is <?=friendly_date($scholarship_date)?>.</p>.
+          Applications for a scholarship must be received by <?=friendly_date($scholarship_date)?>.</p>.
 <?php
           }
 ?>
