@@ -200,7 +200,7 @@
 		"surname" : "Parag",
 		"positions" : ["MRC Research Fellow"],
 		"description" : "Dr Parag is an engineer interested in the design of better epidemic detection and control strategies. His research focuses on improving the accuracy of real-time measures of infectious disease spread (e.g., reproduction numbers and growth rates). He aims to understand how such measures can more reliably inform epidemic interventions. In attacking these problems, he often finds principles from engineering can offer new and interesting insights. For example, his recent work adapts ideas from electrical engineering to quantify how the noise in different epidemic data (e.g., death or case counts) limits our ability to reliably infer changes in COVID-19 spread.",
-		"photo" : "images/presenters/kris_parag.jpg",
+		"photo" : "images/presenters/kris_parag.png",
 		"pubs" : "http://www.imperial.ac.uk/people/k.parag/publications.html"
 
 	},
