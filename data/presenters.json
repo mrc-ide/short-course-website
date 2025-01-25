@@ -200,7 +200,7 @@
 		"surname" : "Parag",
 		"positions" : ["MRC Research Fellow"],
 		"description" : "Dr Parag is an engineer interested in the design of better epidemic detection and control strategies. His research focuses on improving the accuracy of real-time measures of infectious disease spread (e.g., reproduction numbers and growth rates). He aims to understand how such measures can more reliably inform epidemic interventions. In attacking these problems, he often finds principles from engineering can offer new and interesting insights. For example, his recent work adapts ideas from electrical engineering to quantify how the noise in different epidemic data (e.g., death or case counts) limits our ability to reliably infer changes in COVID-19 spread.",
-		"photo" : "images/presenters/kris_parag.jpg",
+		"photo" : "images/presenters/kris_parag.png",
 		"pubs" : "http://www.imperial.ac.uk/people/k.parag/publications.html"
 
 	},
@@ -216,7 +216,21 @@
 		"pubs" : "http://www.imperial.ac.uk/people/m.pons-salort/publications.html"
 
 	},
-		{
+	{
+		"identifier" : "t_rawson",
+		"title" : "Dr",
+		"forenames" : ["Thom"],
+		"postnominals": [""],
+		"surname" : "Rawson",
+		"positions" : [
+			"Research Associate"
+		],
+		"description" : "Dr Rawson is a mathematical modeller based in the Jameel Institute applying mathematical and statistical techniques to best utilise epidemiological data. During the pandemic, he worked as part of Imperial's real-time modelling team, providing weekly projections of the pandemic trajectory to the Scientific Pandemic Infections group on Modelling (SPI-M). He has investigated the impact of decisions made regarding vaccine rollout, and explored the effect of health inequity during the pandemic. His main research interests focus on the spread of zoonotic pathogens, predominating within agricultural settings. Most recently he has worked in modelling the spread of H5N1 influenza.",
+		"photo" : "images/presenters/t_rawson.jpg",
+		"pubs" : "https://www.imperial.ac.uk/people/t.rawson/publications.html"
+
+	},
+	{
 		"identifier" : "romain_silhol",
 		"title" : "Dr",
 		"forenames" : ["Romain"],

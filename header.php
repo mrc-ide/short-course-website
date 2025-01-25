@@ -47,7 +47,7 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a href="index.php"  class="brand"><img src="<?= $cpath ?>images/logo_imperial_college_london.png" width="168" height="44" alt="IC_logo"></a>
+          <a href="index.php"  class="brand"><img src="<?= $cpath ?>images/IMPERIAL_logo_RGB_Blue_2024_small.png" width="401" height="44" alt="IC_logo"></a>
           <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
