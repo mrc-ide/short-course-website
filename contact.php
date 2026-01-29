@@ -13,7 +13,7 @@
       <div class="row-fluid">
         <div class="span8">
 
-          Please address all enquiries about the course to <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">Dr Thomas Rawson and Dr Pablo Perez-Guzman</a>.
+          Please address all enquiries about the course to <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">Dr Pablo Perez-Guzman and Dr Daniela Olivera Mesa</a>.
           <hr>
 
           <p><strong>Email :</strong> <a href="mailto:infectiousdiseasemodels@imperial.ac.uk">infectiousdiseasemodels@imperial.ac.uk</a></p>
